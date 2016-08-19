@@ -1,0 +1,596 @@
+[
+  {
+    "_id": "1af6iHUony",
+    "_created_at": "2015-11-22T15:26:45.711Z",
+    "_updated_at": "2016-01-13T11:26:08.914Z",
+    "name": "Noga gallery",
+    "galleryDescription": "Noga is a leading gallery in Israel. We keep a fresh and challenging program of Israeli and international artists. Our artists are included in the finest corporate and private collections and exhibited widely in major museums throughout the world.",
+    "email": "info@nogagallery.com",
+    "facebook": "https://www.facebook.com/NogaGalleryofContemporaryArt",
+    "city": "Tel Aviv",
+    "schedule": [
+      "Mon - Thu 11:00-18:00",
+      "Fri - Sat 11:00-14:00"
+    ],
+    "address": "60 Ehad Ha’am St.",
+    "galleryLogo": "tfss-39cfa631-5a7d-4a28-93a1-d69b725892d4-logo.png",
+    "link": "http://nogagallery.com/",
+    "phone": "+972 3 5660123",
+    "latitude": "32.0648588",
+    "longitude": "34.7748198"
+  },
+  {
+    "_id": "1c5mwmM2Cl",
+    "_created_at": "2016-02-01T11:13:00.833Z",
+    "_updated_at": "2016-03-01T21:31:29.134Z",
+    "name": "Zemack Contemporary Art",
+    "galleryDescription": "Zemack Contemporary Art (ZCA) aims to deliver a fresh perspective on contemporary art, created by established and emerging Israeli and international artists.\r\nSince its foundation in 2010, ZCA has had a notable impact on the Israeli art scene and is currently considered one of the leading galleries in Tel Aviv. During these 5 years the gallery held more than 40 exhibitions, participated in 30 international art fairs and printed more than 20 artist books and catalogs.\r\nThe gallery exhibits 4-5 solo shows a year and holds a tradition of visiting exhibitions and collaborations such as the Old Masters Exhibition, Gallery Selection of Prominent Art Graduates, collaboration with established international galleries.\r\nTaking an active part in the lively global dialogue of the international art scene, ZCA supports and promotes its artists globally, exposing its Israeli artists to the major international art markets. ZCA organizes exhibitions in leading galleries, art spaces and museums in North America, Europe and Asia, and participates regularly in international art fairs, such as Art Miami, Miami and New York, Art Stage Singapore, Art Central Hong Kong, Start Saatchi Gallery and others.\r\n\r\nGallery Artists\r\nAngelika Sher, Aram Gershuni, Elie Shamir, Eran Shakine, Eugene Lemay, Fatma Shanan, Kobi Assaf, Lee Yanor, Philippe Pasqua, Piet van den Boog, Yigal Ozeri and Yuval Yairi.",
+    "city": "Tel Aviv",
+    "email": "info@zcagallery.com",
+    "galleryLogo": "tfss-1fb26545-0683-4e30-95a3-205d8567bc31-ogo__Trans_.png",
+    "schedule": [
+      "Sun-Thr. 9:30-20:00",
+      "Fri. 9:30-15:00"
+    ],
+    "latitude": "32.04553",
+    "link": "http://zcagallery.com/",
+    "longitude": "34.790329",
+    "facebook": "https://www.facebook.com/zemackcontemporaryart",
+    "address": "68 Hey B-iyar St.",
+    "phone": "+972 3 6915060"
+  },
+  {
+    "_id": "1hNIaFBr9o",
+    "_created_at": "2016-01-27T09:16:54.294Z",
+    "_updated_at": "2016-01-27T09:16:54.294Z",
+    "name": "onysko"
+  },
+  {
+    "_id": "2TiYdHSoTe",
+    "name": "Feinberg projects gallery",
+    "_created_at": "2015-11-28T13:44:24.993Z",
+    "_updated_at": "2015-11-28T14:20:01.768Z",
+    "phone": "+972 77 3452115",
+    "latitude": "32.0515405",
+    "email": "info@feinbergprojects.com",
+    "galleryLogo": "tfss-4e82ad6a-8c1c-4742-a657-79b192045795-FP_logo.jpg",
+    "city": "Tel Aviv",
+    "facebook": "https://www.facebook.com/FeinbergProjects",
+    "link": "http://feinbergprojects.com/",
+    "address": "3 Hamif’al St. , 2nd floor",
+    "schedule": [
+      "Wed-Thurs: 12:00-18:00",
+      "Fri-Sat: 11:00-14:00"
+    ],
+    "galleryDescription": "Feinberg Projects Gallery’s mission is to represent Israeli artists in the global arena, as well as to exhibit international artists in Israel and abroad. Artists we represent share an artistic outlook that resonates with contemporary international discourse while remaining responsive to the local tensions of the Israeli ‘here and now’. The gallery represents innovative emerging artists, side by side with more established ones with a bold artistic vision. Feinberg Projects is maintaining relationships with leading museums and galleries both in Israel and abroad. Our curatorial approach is interdisciplinary, encouraging the exploration of connections between visual art and other artistic mediums, as well as with philosophical concepts. This results in multilayered and multiple context exhibitions.",
+    "longitude": "34.7732457"
+  },
+  {
+    "_id": "3TcIRNb4ZO",
+    "_created_at": "2015-12-26T11:50:22.177Z",
+    "_updated_at": "2016-01-14T09:35:18.358Z",
+    "name": "Litvak gallery",
+    "address": "Hamifaal 3",
+    "galleryLogo": "tfss-ab1e2e17-b608-48fe-94ec-429123134b9f-in_logo_fix.jpg",
+    "email": "info@litvakcontemporary.com",
+    "galleryDescription": "Located at Shvil Hamifal 3, Litvak Contemporary is the newest addition to the burgeoning art scene in Tel Aviv. Dedicated not only to showcasing the best of contemporary Israeli art in all media, the gallery presents established artists and rising stars from the international art community to an ever-growing audience in Israel. \r\nLitvak Contemporary is also proactive in introducing Israeli talent to viewers in Europe and the United States.",
+    "latitude": "32.0515405",
+    "schedule": [
+      "Sun.- Trsd. 10:00-16:00"
+    ],
+    "link": "http://litvakcontemporary.com/",
+    "city": "Tel-Aviv",
+    "facebook": "www.facebook.com/LitvakContemporary",
+    "longitude": "34.7732457",
+    "phone": "03-6959496"
+  },
+  {
+    "_id": "8S52DnafYl",
+    "name": "Stern Gallery",
+    "_created_at": "2016-02-09T18:28:49.042Z",
+    "_updated_at": "2016-07-14T10:31:15.434Z",
+    "link": "http://www.sternart.com/",
+    "longitude": "34.7719744",
+    "galleryLogo": "tfss-2a016a0d-3430-4064-a655-44c10025d196-ery_logo-01.jpg",
+    "latitude": "32.0821035",
+    "email": "sternart@gmail.com",
+    "phone": "972-3-5246303",
+    "city": "Tel Aviv",
+    "schedule": [
+      "11:00 – 19:00",
+      "10:00 – 14:00"
+    ],
+    "address": "30 Gordon St.",
+    "facebook": "https://www.facebook.com/SternGallery",
+    "galleryDescription": "Stern Gallery has been offering fine quality paintings for the past 45 years. This classic gallery holds a wide variety of Israeli painting, exhibiting veteran Israeli painters alongside contemporary artists. Reuven Rubin, Nachum Gutman, Marcel Janco, Joseph Zaritsky, Aviva Uri, Yohanan Simon, Avraham Binder, Shlomo Meir, Masha Berman, Nava Gidanian and Leead Shamir are only a partial list of our featured artists. \r\nStern Gallery is managed by Debby Luzia, daughter of founder Meir Stern."
+  },
+  {
+    "_id": "3mPQrpmdzv",
+    "_created_at": "2015-11-18T21:07:39.713Z",
+    "_updated_at": "2016-02-01T19:37:28.763Z",
+    "name": "Contemporary by Golconda gallery",
+    "city": "Tel Aviv",
+    "email": "info@contemporary.co.il",
+    "facebook": "https://www.facebook.com/Contemporary-By-Golconda-216233035152684/",
+    "galleryLogo": "tfss-0f09f8cc-3846-4380-b758-f77d9d101175-logo.png",
+    "link": "http://www.contemporary.co.il/",
+    "phone": "972-3-682 2777",
+    "schedule": [
+      "Mon.-Thurs. 11:00-19:00",
+      " Fri. 10:00-14:00, Sat. 11:00-14:00"
+    ],
+    "address": "117 Herzl Street",
+    "galleryDescription": "Contemporary by Golconda is a leading art gallery in the local art scene. Located in the south of Tel Aviv, the gallery resides in an 80 year old building that was formerly a Tehina factory. Contemporary strives to showcase promising contemporary artists and expose their work to the Israeli and international public. The gallery runs solo and group exhibitions, sometimes two at a time, in its two exhibition spaces: the ground floor, a large space with very high ceilings and an industrial look; and the upper floor, which is a more traditional white cube, in which more avant-garde exhibits are usually displayed.",
+    "latitude": "32.0525391",
+    "longitude": "34.7703127"
+  },
+  {
+    "_id": "46cE4puXug",
+    "name": "Gordon Gallery",
+    "_created_at": "2016-01-05T06:41:07.193Z",
+    "_updated_at": "2016-01-14T13:58:05.079Z",
+    "longitude": "34.7716183",
+    "city": "Tel Aviv",
+    "link": "www.gordongallery.co.il/",
+    "phone": "972-3-5240323",
+    "schedule": [
+      "Sun.- Thr.: 11:00-19:00",
+      "Fri.-Sat.: 10:00-13:00"
+    ],
+    "email": "gordongl@netvision.net.il",
+    "address": "95 Ben Yehuda Street",
+    "facebook": "https://www.facebook.com/Gordon-Galleries-171135436269968/",
+    "latitude": "32.0833301",
+    "galleryDescription": "Gordon Gallery was founded in 1966 by Yeshayahu Yariv in a small space on Gordon St., Tel Aviv. A second space on nearby Natan Hachacham St., served as an additional exhibition space between the years 1969-1975. In 1980 the gallery moved to its current large space on 95 Ben Yehuda St.\r\n\r\nGordon Gallery is known for its collection of fine Israeli art, one of the largest collections of its kind, as well as for representing today's leading Israeli artists and several important estates.\r\nIn 1977 the gallery founded Israel's first auction house. Before closing in 2001, it held 49 auctions which became one of the corner stones of the Israeli art market.\r\n\r\nIn 2002 Amon Yariv became manager of the gallery, adding many contemporary artists.\r\nAlongside dozens of catalogues and art books published by the gallery over the years, the gallery hosts lectures with artists that are open to the public, as well as other special art projects and events.\r\n\r\nIn 2012 the space on Natan Hachacham St. reopened its doors as Gordon Gallery 2, a sister gallery to the established Gordon Gallery, focusing on contemporary Israeli art and the next generation of artists and art lovers.",
+    "galleryLogo": "tfss-dd9d2c86-ad5b-4b1e-93f0-b9d9b4db6b88-go_gordon_1.jpg"
+  },
+  {
+    "_id": "B91x28iZg6",
+    "_created_at": "2016-01-13T08:29:13.257Z",
+    "_updated_at": "2016-01-14T14:11:06.466Z",
+    "name": "Hezi Cohen Gallery",
+    "schedule": [
+      "Sun.-Thrs. 10:30-19:00",
+      "Fri.-Sat. 11:00-14:00"
+    ],
+    "phone": "972-3-639-87-88",
+    "city": "Tel Aviv",
+    "email": "info@hezicohengallery.com",
+    "galleryDescription": "Located in a standalone building in southern Tel Aviv, the spacious interior of Hezi Cohen Gallery \r\nindicates its intentions: to create display conditions suitable for contemporary art and its infinite \r\ndiversity, and to support projects that challenge the art object by expanding its definitions and \r\nproperties.\r\nThe gallery's point of departure perceives the global art scene not in terms of medium, but as a \r\ncumulative model comprising different attitudes to artistic practice which exceed differences, \r\navoiding the idea of the global as homogenous yet without being anchored in the local.\r\nIn keeping with this vision, the gallery's program features shows by artists from Israel and abroad, \r\nwhose work both derives from and wishes to influence the contemporary discourse.",
+    "galleryLogo": "tfss-d0c5d16a-9367-4f7c-a5ec-8d4e90378849-ezi-logo_en.gif",
+    "address": "54 Wolfson St.",
+    "link": "http://hezicohengallery.com/home",
+    "longitude": "34.7746487",
+    "latitude": "32.0574618"
+  },
+  {
+    "_id": "BNg51tgrfk",
+    "_created_at": "2016-01-28T18:33:39.254Z",
+    "_updated_at": "2016-01-28T18:36:07.509Z",
+    "name": "START",
+    "galleryDescription": "TART was established in 2008 by the collector Serge Tiroche. It is the first art incubator project in Israel. Through a variety of programs, it aims to assist artists, curators and collectors make their first steps in the art world, and seeks to promote Israeli contemporary art internationally.",
+    "longitude": "34.7552315",
+    "galleryLogo": "tfss-b877308a-20de-4835-ac2c-61b2db919178-START_LOGO.png",
+    "link": "http://www.st-art.co.il/",
+    "address": "3 Rabbi Pinkhas street",
+    "city": "Jaffa, Tel aviv",
+    "email": "info@st-art.co.il",
+    "latitude": "32.0529261",
+    "facebook": "https://www.facebook.com/startcollection/",
+    "schedule": [
+      " 9:00-18:00",
+      "10:00-14:00"
+    ],
+    "phone": "+972-3-5169599"
+  },
+  {
+    "_id": "Ey7TyrlYLY",
+    "_created_at": "2015-11-21T11:56:43.353Z",
+    "_updated_at": "2015-11-25T15:34:50.597Z",
+    "name": "Gordon 2 gallery",
+    "phone": "972-3-5290011",
+    "link": "http://www.gordongallery2.co.il/",
+    "address": "4 Natan Hachacham St.,",
+    "schedule": [
+      "Mon.-Wed.: 11:00-14:00, Thrsd: 11:00-19:00",
+      "Fri.: 10:00-14:00, Sat.: 10:00-13:00"
+    ],
+    "facebook": "https://www.facebook.com/pages/Gordon-Gallery/171135436269968",
+    "email": "gordongl2@013net.net",
+    "galleryLogo": "tfss-93fa1303-35c7-4296-b0bd-d3929411ef9c-on2_up_logo.png",
+    "city": "Tel Aviv",
+    "galleryDescription": "In March, 2012 Gordon Gallery 2 opened its doors. Much like Gordon Gallery in its early days, Gordon 2 is a space for cutting edge contemporary art, but with a focus on a younger generation of artists and art lovers.\r\nGordon 2 inhabits a charming space on 4 Nathan Ha'chacham St., previously used by Gordon Gallery in the late 1960's, yet it functions as a separate operation from the larger Gordon Gallery, located on 95 Ben Yehuda St. It serves as a platform for the next generation of Israeli artists by hosting a variety of exhibitions, lectures and alternative art events.\r\nWorking with a younger generation of artists, as a natural continuation to Gordon Gallery, enables both galleries to represent a comprehensive view of art today, with the perspective gained from decades of exhibiting leading contemporary art.",
+    "longitude": "34.7817676",
+    "latitude": "32.0852999"
+  },
+  {
+    "_id": "FaV8NXni0d",
+    "_created_at": "2016-02-07T11:05:29.482Z",
+    "_updated_at": "2016-02-07T11:29:00.101Z",
+    "name": "Center for Contemporary Art",
+    "address": "Tsadok HaCohen 2",
+    "galleryDescription": "The Center for Contemporary Art is Israel’s foremost institution for the commissioning and presentation of experimental contemporary art, and as such is a vibrant place of inspiration, provocation, and reflection. Situated in the heart of Tel Aviv, the CCA is a registered nonprofit organization that produces four to six unique large-scale exhibitions annually, often focusing on time-based or site-specific practices by outstanding local and international artists. Along with exhibitions, the CCA organizes a wide variety of public programming, including panels, screenings, artist talks, and performances that challenge perceived notions and stimulate debate, experimentation, and engagement.",
+    "galleryLogo": "tfss-ca551bd7-8689-46d9-8103-401296a98d67-newlogo.jpg",
+    "email": "office@cca.org.il",
+    "longitude": "34.767633",
+    "link": "http://cca.org.il/en",
+    "phone": "972-(0)3-5106111",
+    "facebook": "https://www.facebook.com/CCAtelaviv/",
+    "latitude": "32.0669986",
+    "schedule": [
+      "14:00-19:00",
+      "10:00-14:00"
+    ],
+    "city": "Tel Aviv"
+  },
+  {
+    "_id": "IQI22Fq10a",
+    "_created_at": "2016-02-26T10:41:43.763Z",
+    "_updated_at": "2016-02-26T12:23:17.956Z",
+    "name": "Office in Tel Aviv Gallery",
+    "city": "Tel Aviv",
+    "address": "6 Zamenhoff St",
+    "galleryDescription": "The space of Office in Tel Aviv Gallery offers an intimate, quiet atmosphere for visitors to view and enjoy  the works on display. The Gallery presents (monthly) changing exhibitions featuring painting, photography, and sculpture by Israeli and international artists.",
+    "latitude": "32.0778127",
+    "schedule": [
+      "11a.m - 6p.m",
+      "11a.m.- 2p.m."
+    ],
+    "longitude": "34.7752565",
+    "phone": "03-5254191",
+    "galleryLogo": "tfss-67b4f55b-bdee-4ff1-8a54-63772c1a2401-ogo_english.jpg",
+    "link": "www.officeintelavivgallery.com"
+  },
+  {
+    "_id": "LZqPaMzIxl",
+    "_created_at": "2016-01-10T15:31:09.514Z",
+    "_updated_at": "2016-02-06T21:02:58.081Z",
+    "name": "Binyamin Gallery",
+    "facebook": "http://www.binyamin-gallery.com/",
+    "phone": "052-3531456",
+    "schedule": [
+      "Sun-Thr. 16:00-19:00",
+      "Fri.-Sat. 11:00-14:00"
+    ],
+    "email": "binyamin.artgallery@gmail.com",
+    "city": "Tel Aviv",
+    "galleryDescription": "We are a group of 11 artists that opened a self-funded, egalitarian, clique-free and non-profit gallery in the heart of the sooty southern Tel-Aviv. The vision of Binyamin Gallery is to offer a chance to visiting curators (well-known as well as young graduates) and guest artists from Israel and abroad. We created a platform for fresh kick-ass exhibition\r\n\r\nBinyamin Gallery is managed as a cooperative by its members, all graduates of Israel’s high art institutes in their first decade of artistic activity. We provide a professional network to motivate, guide and promote the monthly collaborators, within the art discourse\r\n\r\nAt the time of the gallery inauguration, two years ago, the group's manifesto was presented in the exhibition text by the curator, Gilad Melzer (translated freely from Hebrew:  “The opening of a cultural institution, as modest as it may be, in Israel of 2011, is not to be taken for granted. Culture, if at all present on the local radar screen of consciousness, is seen as a weak signal, and the weakest of all is that of the importance of the plastic Arts. Thus the opening of a new gallery, by a collective of Artists not driven by the pursuit of material gain, but rather looking to create another place in which it will be possible to display, err, taste, mix-up, surprise – is reason enough for a celebration..”\r\n\r\nThe Gallery artists are: Iris Hassid Segal, Rivka Kave, Dina Levy, Shlomit Liver, Uri Noam, Tamar Sheaffer, David Oppenheim, Dana Laor, Nava Joy Uzan, Sarit Achtenberg, Dor Sharon\r\n\r\nThe gallery site contains full archive of its activity and also detailed presentation of the gallery artists.",
+    "latitude": "32.0852999",
+    "address": "5 Shvil hameretz st.",
+    "link": "http://www.binyamin-gallery.com/",
+    "longitude": "34.7817676",
+    "galleryLogo": "tfss-389e634c-86b8-4911-a762-7d96ad292948-642606456_n.jpg"
+  },
+  {
+    "_id": "Px9iFMEP77",
+    "name": "Artspace Tel Aviv",
+    "_created_at": "2016-02-01T20:08:51.565Z",
+    "_updated_at": "2016-02-01T20:10:24.136Z",
+    "facebook": "https://www.facebook.com/artspacetlv/?fref=ts",
+    "longitude": "34.7725563",
+    "address": "Shvil Hamerets 6",
+    "schedule": [
+      "11:00 - 18:00",
+      "10:30 - 14:00"
+    ],
+    "galleryDescription": "Artspace Tel Aviv is a non-profit art center dedicated to supporting the local art scene in Kiryat Ha’Melacha and encouraging direct and meaningful interactions between artists and the viewing public.  \r\n\r\nWe present a variety of changing exhibitions and serve as a resource center for visitors and artists in the area. Artspace Tel Aviv is the perfect place to start your visit, we provide maps of the area, a list of current exhibitions in neighboring galleries, and valuable information about local artists and open studio events. We offer a variety of art tours and host different workshops and lectures every week.",
+    "link": "http://www.artspacetlv.org/",
+    "phone": "03-6725124",
+    "latitude": "32.0509291",
+    "galleryLogo": "tfss-8daea976-6fcb-457f-8d2b-127f05fd0c56-827178991_n.jpg",
+    "city": "Tel Aviv",
+    "email": "info@artspacetlv.org"
+  },
+  {
+    "_id": "QRd0ib8Zc2",
+    "_created_at": "2015-11-18T22:09:41.801Z",
+    "_updated_at": "2015-11-30T14:09:39.666Z",
+    "name": "Alon Segev gallery",
+    "galleryDescription": "Alon Segev Gallery opened in 2000. It has since become a leading contemporary art gallery in Tel Aviv, focusing on young and well established contemporary artists; both Israeli and international.\r\nThe gallery's artistic agenda allows the display of all aspects of contemporary art; from complex installations through video , sculptures, drawing and painting, often reviewed.\r\nArtists represented by Alon Segev Gallery are currently living, working, and exhibiting both in Israel and abroad. Alon Segev Gallery is regarded as one of the leading contemporary art galleries in Israel today.\r\nIt is our vision and intention to expose Israeli contemporary art to the international scene. We believe Israeli art is of relevance world wide and has an interesting perspective to offer.",
+    "city": "Tel Aviv, 6129201",
+    "galleryLogo": "tfss-938cbe5e-ac5b-4114-9e21-dc7400f36f40-_alon_segev.jpg",
+    "email": "info@alonsegev.com",
+    "facebook": "https://www.facebook.com/AlonSegevGallery?_rdr=p",
+    "link": "http://www.alonsegev.com/",
+    "address": "6 Rothschild Blvd",
+    "phone": "+972-3-6090769",
+    "schedule": [
+      "Mon-Thur: 10.00-18.00",
+      "Fri: 10.00-13.00"
+    ],
+    "latitude": "32.0629308",
+    "longitude": "34.7697372"
+  },
+  {
+    "_id": "TiyvyGCBoq",
+    "name": "Rosenfeld Gallery",
+    "_created_at": "2016-01-28T17:36:28.223Z",
+    "_updated_at": "2016-01-28T18:05:57.603Z",
+    "email": "gallery@rg.co.il",
+    "galleryDescription": "Founded by Eliezer Rosenfeld in 1952, the Rosenfeld Gallery, Tel Aviv, has become one of the most prominent exhibition spaces in the local art scene. The artists in its represented ranks have flourished under its wing, becoming the cream of Israeli artists. By the 1970s the gallery had become a prestigious institution with a rich history and a fine reputation, holding an impressive private collection. Since 1995 it has been owned and directed by Zaki Rosenfeld.\r\nSince 1999, the gallery has changed its orientation, focusing increasingly on contemporary art and on spotting new talent. The gallery represents an impressive roster of artists, up-and-coming alongside more established, eminent names, each of whom is changing the face of Israeli art. Rosenfeld gallery's agenda is building careers for its highly talented artists, working side by side and giving them the ability and sources to realize their excellence.\r\nRelocated in 2009, the gallery moved to its new space in south Tel Aviv, an industrial area which is evolving into one of the most prominent sites in the local art scene. This area, which is characterized by large industrial spaces, enables presenting contemporary art in its most proper environment. In the past few years, it has become a favored location for many artists’ studios. The gallery's relocation to this evolving area reinforces its existence as a major center of the local art field.\r\nIn addition to fostering and promoting a stable of cutting-edge talent, the gallery is also involved in other intriguing projects in several media. Together, all these initiatives and ventures make the Rosenfeld Gallery a must-see, a worthwhile stop on the local gallery circuit and one of the brightest spots on the Israeli art map.",
+    "latitude": "32.0520202",
+    "schedule": [
+      "12:00-19:00",
+      "11:00-13:00"
+    ],
+    "galleryLogo": "tfss-186c2bf7-a9ab-4ca3-9a9c-42e5a2b774b4-RG_logos.jpg",
+    "city": "Tel Aviv",
+    "address": "1 Ha-Mif’al St.",
+    "link": "http://rg.co.il/",
+    "longitude": "34.7733971",
+    "facebook": "https://www.facebook.com/RosenfeldGallery.RG",
+    "phone": "+ 972-3-5229044"
+  },
+  {
+    "_id": "XHzSh6HUMg",
+    "_updated_at": "2016-01-14T14:00:12.495Z",
+    "name": "Gordon Gallery II",
+    "_created_at": "2016-01-05T06:46:57.648Z",
+    "schedule": [
+      "Sun.-Thr.: 11:00-14:00",
+      "Fri.-Sat.:10:00-13:00"
+    ],
+    "email": "gordongl2@013net.net",
+    "address": "4 Natan Hachacham St",
+    "galleryDescription": "In March, 2012 Gordon Gallery 2 opened its doors. Much like Gordon Gallery in its early days, Gordon 2 is a space for cutting edge contemporary art, but with a focus on a younger generation of artists and art lovers.\r\n\r\nGordon 2 inhabits a charming space on 4 Nathan Ha'chacham St., previously used by Gordon Gallery in the late 1960's, yet it functions as a separate operation from the larger Gordon Gallery, located on 95 Ben Yehuda St. It serves as a platform for the next generation of Israeli artists by hosting a variety of exhibitions, lectures and alternative art events.\r\n\r\nWorking with a younger generation of artists, as a natural continuation to Gordon Gallery, enables both galleries to represent a comprehensive view of art today, with the perspective gained from decades of exhibiting leading contemporary art.",
+    "link": "http://www.gordongallery2.co.il/",
+    "longitude": "34.7817676",
+    "city": "Tel Aviv",
+    "facebook": "https://www.facebook.com/Gordon-Galleries-171135436269968/",
+    "phone": "972-3-5290011",
+    "latitude": "32.0852999",
+    "galleryLogo": "tfss-d570dba1-0b40-4bce-9c90-48f6299f167c-gordon2_up.png"
+  },
+  {
+    "_id": "Y15CDUL5hQ",
+    "_updated_at": "2016-03-06T09:23:29.155Z",
+    "name": "Indie",
+    "_created_at": "2016-02-01T15:54:23.252Z",
+    "link": "http://www.galleryindie.com/he/home",
+    "schedule": [
+      "12:00-19:00",
+      "11:00-14:00"
+    ],
+    "email": "galleryindie@gmail.com",
+    "longitude": "34.7817676",
+    "address": "Shvil Hameretz, 5",
+    "galleryLogo": "tfss-6e7f9fc2-4767-4b03-b5f9-3ca21115e7c4-ie_new_logo.jpg",
+    "facebook": "https://www.facebook.com/Galleryindie/info/?tab=overview",
+    "latitude": "32.0852999",
+    "galleryDescription": "Indie, the cooperative photography gallery, was founded 4 years ago by a group of emerging artists with a clear agenda: providing a platform for photographers and video artists working to develop public dialogue in these media in Israel, free of economic or commercial considerations. Indie is an independent project with no outside financial support;",
+    "city": "Tel Aviv",
+    "phone": "-"
+  },
+  {
+    "_id": "YsRiVCsA9O",
+    "_updated_at": "2016-02-08T06:39:45.904Z",
+    "name": "Hamidrasha Gallery - HaYarkon 19",
+    "_created_at": "2016-02-08T06:22:04.214Z",
+    "latitude": "32.0704339",
+    "facebook": "https://www.facebook.com/hayarkon19",
+    "galleryDescription": "Hamidrasha Gallery - HaYarkon 19 is a leading center for fine arts, culture and education.  Located at the nexus of Tel Aviv’s gallery district and neighborhoods of marginalized populations, the Gallery highlights young artists as well as the avant garde – with exhibits, installations, performance art, video and film, as well as lectures and seminars. The Gallery creates a space for educational activity, work with the surrounding communities, and is a focus for the Israeli arts and cultural community.\r\n\t\r\nThe Gallery, which spans a 500 sq. mtr. space in a two floor complex, includes a contemporary art gallery, and a versatile area equipped for video screening, conferences, seminars and workshops.  \r\n\r\nOur activities include:\r\nExhibitions: Serving as Hamidrasha’s window in Tel Aviv, Hamidrasha Gallery is among the prominent galleries operating in the city. Displaying young contemporary artists, Hamidrasha Gallery is an integral part of the fabric of Israel's art world. The Gallery hosts myriad, changing exhibitions, highlighting a wide variety of artists. The gallery activities include tours and talks with the artists, open for the local community and the general public.\r\n\r\nLectures, seminars and conferences: Working with Hamidrasha's academic staff, we offer, on a weekly basis,  a diverse range of talks, lectures and film screenings on current subjects: the local film scene, digital media, music, art education, social issues, and more. All of these are free and open to the public. \r\n\r\nArt Education Programs: As an extension to Hamidrasha's activities in the field of art education, our programs serve schools and teachers from the Tel Aviv district and beyond. Students and faculty members of Hamidrasha, who study art education, are involved in the ongoing activities. In addition, the Gallery  provides lectures and seminars for art teachers, and provides activities for art students.        \r\n\r\nWorking with the community: acknowledging the unique location of our center, our programs also include activities for and with the communities around us. \r\n\r\nArtists' Initiatives: Hayarkon 19 encourages unique initiatives on cultural and social issues. Artists from all fields, as well as researchers, and social activists are welcome to use the Gallery and its resources in order to develop group-based initiatives.",
+    "longitude": "34.7646432",
+    "phone": "03-6203129",
+    "address": "HaYarkon 19",
+    "email": "hamidrasha.bta@gmail.com",
+    "link": "http://www.beitberl.ac.il/academic/art/exhbitions_galleries/hayarkun/pages/default.aspx",
+    "city": "Tel Aviv",
+    "schedule": [
+      "13:00-20:00",
+      "11:00-14:00"
+    ],
+    "galleryLogo": "tfss-0d5769ce-ff6f-4f2f-aa56-893e7c099822-558950697_n.jpg"
+  },
+  {
+    "_id": "eG7FliG9PA",
+    "_created_at": "2016-02-10T15:31:40.147Z",
+    "_updated_at": "2016-02-10T15:50:02.196Z",
+    "name": "Dvir Gallery",
+    "city": "Tel Aviv",
+    "longitude": "34.7733102",
+    "link": "http://www.dvirgallery.com/contents/category_area.asp?contentCatID=21",
+    "email": "international@dvirgallery.com",
+    "latitude": "32.0543538",
+    "facebook": "https://www.facebook.com/dvirgallery",
+    "galleryDescription": "-",
+    "schedule": [
+      "11:00 - 18:00",
+      "10:00 - 13:00"
+    ],
+    "address": "14 Reshit Hochma Street",
+    "phone": "972-3-6043003"
+  },
+  {
+    "_id": "YtS8AQXpbf",
+    "_updated_at": "2016-02-09T19:03:11.860Z",
+    "name": "Rothschild Fine Art",
+    "_created_at": "2016-02-09T18:50:56.056Z",
+    "city": "Tel Aviv",
+    "email": "info@rgfineart.com",
+    "galleryDescription": "Rothschild Fine Art was founded in 2008, located in the cultural center of Tel Aviv.\r\nThe gallery is exhibiting leading contemporary Israeli artists and hosting some leading international artists.\r\nThe gallery was founded to provide Israeli and foreign artists with a framework for strong and uncompromising art.",
+    "latitude": "32.0644849",
+    "schedule": [
+      "11.00-18.30",
+      "11.00-14.00"
+    ],
+    "phone": "972 77 5020484",
+    "longitude": "34.7771623",
+    "address": "48 Yehuda Halevi",
+    "facebook": "https://www.facebook.com/rothschild.fineart",
+    "galleryLogo": "tfss-7aa7d457-c0a9-4b84-ad04-92e91a66e949-031389813_n.jpg",
+    "link": "http://www.rgfineart.com/index.asp"
+  },
+  {
+    "_id": "ZvvERgizGH",
+    "_updated_at": "2016-05-05T12:23:48.062Z",
+    "name": "Triangle Gallery",
+    "_created_at": "2016-05-05T11:33:14.340Z",
+    "schedule": [
+      "Close",
+      "Saturday 11:00-14:00"
+    ],
+    "address": "Shvil Hamerez 6 , 1st Floor, Studio 8",
+    "facebook": "https://www.facebook.com/%D7%94%D7%9E%D7%A9%D7%95%D7%9C%D7%A9-%D7%97%D7%9C%D7%9C-%D7%9C%D7%90%D7%9E%D7%A0%D7%95%D7%AA-Triangle-Art-Space-388883687932545/app/?sk=app_272688826176410",
+    "city": "Tel Aviv - Yaffo",
+    "email": "hameshulashart@gmail.com",
+    "galleryDescription": "Triangle - Space Art",
+    "phone": "054-233-0511",
+    "galleryLogo": "tfss-bd192912-4bb9-4f57-8ca3-5e488723b222-233_527X195.jpg"
+  },
+  {
+    "_id": "bxnjvXDqPD",
+    "_updated_at": "2016-01-14T14:44:37.592Z",
+    "name": "Givon Gallery",
+    "_created_at": "2016-01-10T13:37:23.342Z",
+    "link": "http://givonartgallery.com/wordpress/",
+    "schedule": [
+      "Sun.-Thrsd. 11:00-18:00",
+      "Fri.-Sat.: 11:00-14:00"
+    ],
+    "email": "info@givonartgallery.com",
+    "address": "35 Gordon St",
+    "city": "Tel Aviv",
+    "facebook": "https://www.facebook.com/Givon-Art-Gallery-396569853775411/",
+    "latitude": "32.0819057",
+    "phone": "+ 972 3 5225427",
+    "longitude": "34.773232",
+    "galleryDescription": "The Gallery was founded in 1974 by Sam Givon on Gordon Street in Tel Aviv.  In 1979 his daughter, Naomi (Noemi) opened the Givon Contemporary Art Gallery. Since the founder's death in 2000, the Gallery has been managed by Naomi Givon and is co-owned with her sister, Nurit Wolf, an attorney.\r\nThe proprietor is Naomi Givon. In 2012 Givon completed the architecturally notable renovation of an abandoned 1890 house in Tel Aviv's Neve Tzedek neighborhood. \r\nArtists represented by Givon include Pinchas Cohen Gan,  Moshe Gershuni,  Raffi Lavie",
+    "galleryLogo": "tfss-b3ba1b77-b0d1-4908-8041-03aaf9886959-Art_Gallery.png"
+  },
+  {
+    "_id": "hNqEoI6YHd",
+    "name": "Hanina Contemporary Art",
+    "_created_at": "2016-01-31T08:29:32.785Z",
+    "_updated_at": "2016-01-31T08:41:22.039Z",
+    "galleryDescription": "Hanina Contemporary Art was founded in 2008 as an exhibition and art lectures space at 25 Hanina street in Jaffa. The exhibitions included some of the best established Israeli artists as well as the younger generation.\r\nAfter the activity in the original location was suspended, Hanina was re-established by 16 young artists as a collectively owned non-profit gallery, and it is now operating from its current two-levels space in the south of Tel Aviv, on 31 Y.L.Peretz street.\r\n\r\nHanina is a truly collaborative gallery which is not based on an economic logic: its objectives include promotion of cultural dialogues and the development of a more diverse voice than the one heard in the ordinary Israeli art world.\r\n\r\nHanina’s diverse artistic activities include evening studies, lectures, films and video works shows or even model drawing. The 16 gallery members, graduates of various institutions and life courses, live and work in different places around Israel. These artists devote their time, talent, vision and resources to the existence of the gallery, free of any economical interests, and see Hanina’s activity as an act of giving.\r\n\r\nHanina Contemporary Art members:\r\n\r\nOscar Abosh, Vered Aharonowitz, Tziky Eisenberg, Jonathan Ofek, Reut Asimini, Adi Ben Horin, Naamah Berkovitz, Yifat Giladi, Noa Heyne, Jonathan Hirschfeld, Ron Vinter, Shira Tabachnik, Michael Igudin, Yakir Segev, Lee He Shulov.",
+    "latitude": "32.05122",
+    "address": "3 shvil hamif'al",
+    "longitude": "34.773127",
+    "facebook": "https://www.facebook.com/hanina.new/?fref=ts",
+    "phone": "-",
+    "schedule": [
+      "16:00-19:00",
+      "11:00-14:00"
+    ],
+    "link": "http://hanina.org/",
+    "city": "Tel Aviv",
+    "galleryLogo": "tfss-33588672-8e53-4c35-83db-31ca022c3540-933716857_n.jpg"
+  },
+  {
+    "_id": "lyvoD3JYsz",
+    "_updated_at": "2016-01-30T22:44:41.743Z",
+    "name": "Inga Gallery",
+    "_created_at": "2016-01-28T14:42:59.837Z",
+    "galleryDescription": "Since opening its doors in 2006 in Tel Aviv, Inga Gallery has\r\nbecome a prominent part of the growing national and local\r\nart scene.\r\nThe curatorial approach is based on a deep desire to bridge\r\ninteractions between artists, curators, collectors and the\r\naudience. To this point, each show is conceived as an inventive\r\nproject that balances a selection of emerging and mid-career\r\nartists along with established ones, whose practices deserve\r\nre-contextualization. Through a well-balanced schedule of solo\r\nexhibitions and curated group shows, the gallery ensures the\r\nexistence of a theoretical discourse around its shows, both\r\nat home and on international level, by inviting guest curators\r\nto contribute their vision to the program, in a cutting-edge,\r\nopen–minded fashion.",
+    "city": "Tel Aviv",
+    "longitude": "34.7714663",
+    "phone": "972-3-5181812",
+    "email": "inga.gallery@gmail.com",
+    "address": "7 Bar yochai st",
+    "schedule": [
+      "Sun.-Thr. 11:00-18:00",
+      "Fri.-Sat. 11:00-14:00"
+    ],
+    "latitude": "32.0535279",
+    "link": "http://www.inga-gallery.com/",
+    "facebook": "https://www.facebook.com/inga.gallery/?fref=ts",
+    "galleryLogo": "tfss-aa76eae1-6bc2-48b2-8bef-845fd508ba95-logo.png"
+  },
+  {
+    "_id": "mWp4EUnrpS",
+    "name": "Alfred Gallery",
+    "_created_at": "2016-05-05T11:27:56.339Z",
+    "_updated_at": "2016-05-05T11:48:29.663Z",
+    "facebook": "https://www.facebook.com/AlfredInstitute",
+    "phone": "03-5183313",
+    "city": "Tel Aviv - Yaffo",
+    "address": "Simtat Shlush 5",
+    "schedule": [
+      "Tuesday - Thursday 17:00 - 21:00",
+      "Friday 10:00 - 14:00 Saturday 11:00 - 15:00"
+    ],
+    "link": "http://www.alfredinstitute.org/",
+    "email": "alfred.hecht@gmail.com",
+    "galleryDescription": "Alfred Cooperative Institute for Art & Culture\r\nAlfred Cooperative Institute for Art & Culture is an alternative art space – home to an active and vibrant artist community aimed at introducing contemporary Israeli art and its young creators to art lovers in the local community. The Alfred Institute is the successor of Alfred Gallery, a pioneer in the sphere of cooperative artistic ventures, who's work became a model for numerous cooperative art galleries in Israel. After 8 years of successful work in south Tel-Aviv, Alfred Institute was established two years ago, as a space devoted entirely to promoting and supporting young Israeli art.\r\nSince 2005 we have produced over 170 exhibitions, provided the opportunity for hundreds of young artists to show their works, and hosted thousands of visitors and art lovers at our exhibitions.\r\n________________________________________\r\nAbout the Cooperative\r\nAlfred is a non-profit organization whose purpose is to promote young artists and give them support and exposure. For the past decade Alfred Gallery and Alfred Institute work side by side as a Non-Profit organization charging zero commission on sales, and thus transferring 100% of the revenue directly to the artist.\r\nAlfred Members consist of 17 prominent Israeli artists, whom for the past 10 years have devoted their time, effort, skills and talent, and time to promote young Israeli art, through Alfred Institute. The group functions as a cooperative of artists in which all decisions-making is shared. Alfred Members are bound by financial obligations, requiring all members to pay yearly membership fees in addition to contributing 10 volunteer hours at the institute.",
+    "galleryLogo": "tfss-0760ab28-0fd8-4582-9ed8-f93c32a4e2b0-logo.jpg"
+  },
+  {
+    "_id": "pNfbP9K8wm",
+    "_created_at": "2016-02-26T12:10:14.568Z",
+    "_updated_at": "2016-03-03T14:01:33.232Z",
+    "name": "Liza Gershuni Gallery",
+    "address": "​Ben Avigdor St. 20, 3th floor. Tel-Aviv",
+    "email": "hhatahana@gmail.com",
+    "longitude": "34.7817676",
+    "facebook": "https://www.facebook.com/hatahana/timeline",
+    "link": "http://www.hatahana-studio.com/",
+    "latitude": "32.0852999",
+    "galleryLogo": "tfss-7f7da989-3c50-43f0-8bfc-fecba5d3ff30-Y_logo_copy.gif",
+    "phone": "0527466459",
+    "galleryDescription": "Liza Gershuni Contemporary is a young gallery located in downtown Tel-Aviv.  The gallery is affiliated with HaTahana School of Drawing and Painting, a privately-owned school for traditional, figurative art, where some of Israel's most highly acclaimed figurative painters have been teaching hundreds of students for the past decade. \r\nThe gallery is the inevitable next step. Liza Gershuni Contemporary is committed to showing contemporary figurative drawings, paintings, and sculpture of the finest quality only.  The gallery has been showing the top graduates of HaTahana School's Masterclass since its' inception, as well as other young artists striving for the highest level of excellence in their chosen field.  The ongoing series of solo and group exhibitions in the gallery has already met with much critical and commercial success.  \r\nInhabiting an intimate and finely proportioned space flooded with natural light, the gallery is an ideal viewing space, inviting visitors to spend quiet quality-time with the artwork of their choice. The Gallery is located literally next door to the school, and visitors to the gallery are encouraged to visit the classes at work as well, for a unique experience of art-in-the-making.\r\nExhibitions in the gallery are curated by Liza Gershuni, who is also the director of the school.  Liza is able to draw on years of close experience of the field of traditional figurative painting – she has put together the seminal exhibition \"Presences\" and the accompanying book, among other things – to select and assemble art of the highest quality and relevance.",
+    "schedule": [
+      "13:00-19:00",
+      "10:00-15:00"
+    ]
+  },
+  {
+    "_id": "t5vJoGQWuD",
+    "_updated_at": "2016-01-10T15:12:45.703Z",
+    "name": "Sommer gallery",
+    "_created_at": "2015-11-21T15:00:54.086Z",
+    "city": "Tel Aviv, 66881 Israel",
+    "email": "info@sommergallery.com",
+    "link": "http://www.sommergallery.com",
+    "galleryLogo": "tfss-536505cb-6463-4c97-8e10-7a484f926d47-Logo.jpg",
+    "phone": "+972 3 5166400",
+    "address": "13 Rothschild Blvd.",
+    "galleryDescription": "Sommer Contemporary Art is an Israeli gallery, dedicated to the promotion of Israeli art in the international art scene, and to introducing international contemporary art to the Israeli public. Established in 1999 by Irit Sommer, in 2005 the gallery moved to its new space, a historical building in the heart of Tel-Aviv. The gallery represents both prominent international artists such as Saâdane Afif, Darren Almond, Tom Burr, Karl Haendel, Peter Halley and Tal R, and Israeli artists such as Yael Bartana, Guy Ben Ner, Yehudit Sasportas, Adi Nes and Michal Helfman. We participate regularly in major art fairs such as Frieze London, Frieze New York, Art Basel and Fiac.",
+    "schedule": [
+      "Mon. - Thrs. 10:00 - 18:00",
+      "Fri, 10:00 - 14:00  Sat, 11:00 - 13:00"
+    ],
+    "facebook": "https://www.facebook.com/sommercontemporaryart/",
+    "latitude": "32.0631461",
+    "longitude": "34.7706705"
+  },
+  {
+    "_id": "vFRsaOW1ve",
+    "_updated_at": "2016-02-06T21:00:58.645Z",
+    "name": "RawArt gallery",
+    "_created_at": "2015-11-26T16:43:37.157Z",
+    "city": "Tel Aviv",
+    "phone": "+972-3-6832559",
+    "schedule": [
+      "Tue-Thu: 12:00 - 18:00",
+      "Fri-Sat: 11:00 - 14:00"
+    ],
+    "link": "http://rawart-gallery.com",
+    "galleryLogo": "tfss-c9c9f8ce-dd96-44b3-a0d6-52c5b96c52ad-zen_logo.png",
+    "galleryDescription": "Located in the renewing industrial area of \"Kiryat Hamelacha\" in Tel Aviv, RawArt Gallery was established in 2005. \r\nRawArt represents Israeli and international artists in the fields of painting, photography, sculpting, installation and video.\r\nThe gallery owns a large, varied collection of art works by well known Israeli artists as well as young emerging artists from Israel and abroad.",
+    "longitude": "34.7817676",
+    "latitude": "32.0852999",
+    "facebook": "https://www.facebook.com/raw.art.5",
+    "address": "3 Shvil Ha'Meretz st.",
+    "email": "info@rawart-gallery.com"
+  },
+  {
+    "_id": "wmciRuAzaT",
+    "_updated_at": "2016-02-26T11:26:55.290Z",
+    "name": "Ha’Kibbutz Gallery",
+    "_created_at": "2016-02-26T11:23:03.461Z",
+    "schedule": [
+      "11am - 3pm",
+      "11am - 2pm"
+    ],
+    "galleryDescription": "\"Ha’Kibbutz\" Gallery - A little history\r\n\r\n'The Kibbutz, Art Gallery' was founded by the Kibbutz Movement Federation \r\n(a roof organisation of the kibbutz movements which was set up before they amalgamated  to form of one movement) shortly after the Six Day War, 1968. At that time the kibbutz movement had reached its pinnacle of its strength and influence. It wanted to expose its artists to the Tel Aviv public and to bring the \"kibbutz message\" to the city.\r\n\r\nA whole decade prior to the emergence of the first signs of an ideological crisis in the kibbutz movement, an astute and keen-eyed observer could read 'the writing on the wall', merely by observing the exhibitions displayed and what was happening in \"The Kibbutz\" gallery. These years formed the gallery's character as a unique gallery in the urban galleries landscape. In essence a non commercial, involved, responsive, opinion-making, experimental and dialogue conducting art address.\r\nBetween 1980 and 1983 the gallery's curators and various managers changed a number of times. The disbanding of the  \"In Common –Kibbutz\" group, the serious  crisis  which plagued the kibbutz movement and the decline of its standing  in Israeli society, also undermined the gallery's standing in the Israeli art field and at the beginning of the 1990s it was about to close.\r\nThe revitalisation of the gallery which included revitalising its involved and responsive curatorial line, stemmed to a large extent from the principle decision to incorporate in its activities artists who are not kibbutz members,\r\nplaced the gallery once again in the local art scene. From 1995 onwards the gallery crystallized a policy which made it possible to expose young artists and experiments, to advance peripheral artists possessing exceptional qualities, raised topics of principle concern for debate and declared in no uncertain terms its continued involvement in Israeli art and culture.\r\n\r\nIn November 2004 Yaniv Shapira was appointed director and curator of the gallery. The gallery's name was changed to \"Ha'Kibbutz - Israeli Art Gallery\" and more pointedly focused its identity and its obligation to art as an inseparable part of the discourse on Israeli culture and art. since 2009 till today the art manager and curator of the gallery is Yael Kainy. Alongside its ongoing artistic activity the gallery is currently involved in a combined initiative with some 15 galleries operating in various kibbutzim in the kibbutz movement.",
+    "longitude": "34.7724074",
+    "facebook": "https://www.facebook.com/%D7%94%D7%A7%D7%99%D7%91%D7%95%D7%A5-%D7%92%D7%9C%D7%A8%D7%99%D7%94-%D7%9C%D7%90%D7%9E%D7%A0%D7%95%D7%AA-%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%D7%AA-294056030640022/",
+    "city": "Tel Aviv",
+    "address": "25 Dov Hoz st.",
+    "galleryLogo": "tfss-8054e493-e682-4ffb-9f16-2125a1f8b220-1.jpg",
+    "phone": "972-3-5232533",
+    "link": "http://www.kibbutzgallery.org.il/in_page.asp?page_id=177",
+    "email": "kgallery@actcom.net.il",
+    "latitude": "32.0815282"
+  }
+]
