@@ -7,13 +7,9 @@
 //
 
 #import "AppDelegate.h"
-#import "Gallery.h"
-#import "DataLoader.h"
+#import "EventsManager.h"
 
 @interface AppDelegate ()
-
-@property (strong, nonatomic) DataLoader *dataLoader;
-@property (strong, nonatomic) NSDictionary <NSString *, Gallery *> *galleries;
 
 @end
 
@@ -21,24 +17,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    self.dataLoader = [[DataLoader alloc] init];
-    
-    [self loadGalleries];
+    [[EventsManager sharedEventsManager] loadEvents];
     
     return YES;
-}
-
-- (void) loadGalleries {
-    self.galleries = [self.dataLoader loadGalleries];
-
-    if (self.galleries) {
-        Gallery *gallery = self.galleries[@"ZvvERgizGH"];
-
-        NSLog(@"%@", gallery);
-    }
-    
-    NSLog(@"GALLERIES: %@", self.galleries);
-    NSLog(@"GALLERIES COUNT: %ld", [self.galleries count]);
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

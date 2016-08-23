@@ -10,7 +10,4 @@
 
 @protocol FavoriteItem <NSObject>
 
-@property (strong, nonatomic) NSString *_id;
-@property (strong, nonatomic) NSString *title;
-
 @end
