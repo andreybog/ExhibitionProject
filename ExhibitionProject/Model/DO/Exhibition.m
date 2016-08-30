@@ -12,7 +12,8 @@
 
 - (instancetype) initWithDictionary:(NSDictionary *)dictionary {
     if ( self = [super initWithDictionary:dictionary] ) {
-        _author = dictionary[@"author"];
+        _author = dictionary[@"authorName"];
+        _likesCount = [dictionary[@"likesCount"] integerValue];
     }
     return self;
 }

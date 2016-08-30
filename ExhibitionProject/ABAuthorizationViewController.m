@@ -7,7 +7,18 @@
 //
 
 #import "ABAuthorizationViewController.h"
+#import "ABExhibitionsViewController.h"
 
 @implementation ABAuthorizationViewController
+
+#pragma mark - Actions
+
+
+- (IBAction)actionLoginLaterButton:(UIButton *)sender {
+    ABExhibitionsViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"ABExhibitionsViewController"];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    
+    [self presentViewController:nav animated:YES completion:nil];
+}
 
 @end

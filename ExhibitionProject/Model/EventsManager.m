@@ -35,7 +35,6 @@
 }
 
 - (void) loadEvents {
-    
     __weak EventsManager *weakSelf = self;
     
     [self.dataLoader loadEventsWithCallBack:^(NSArray *array, NSError *error) {
@@ -44,10 +43,11 @@
             return;
         }
         weakSelf.events = array;
-        [weakSelf printEvents];
+//        [weakSelf printEvents];
     }];
 }
 
+//debug method
 - (void) printEvents {
     for ( Event *event in self.events ) {
         NSLog(@"%@", event);

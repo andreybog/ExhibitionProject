@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5530A05E1D75C04300EB09D5 /* ABExhibitionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5530A05D1D75C04300EB09D5 /* ABExhibitionsViewController.m */; };
+		5530A0621D76170D00EB09D5 /* ABExhibitionPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5530A0611D76170D00EB09D5 /* ABExhibitionPreviewCell.m */; };
+		5530A0651D76222F00EB09D5 /* ABAuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5530A0641D76222F00EB09D5 /* ABAuthorizationViewController.m */; };
+		5530A0731D762C0900EB09D5 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5530A06F1D7629C600EB09D5 /* OpenSans-Bold.ttf */; };
+		5530A0741D762C0900EB09D5 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5530A0701D7629C600EB09D5 /* OpenSans-ExtraBold.ttf */; };
+		5530A0751D762C0900EB09D5 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5530A0711D7629C600EB09D5 /* OpenSans-Light.ttf */; };
+		5530A0761D762C0900EB09D5 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5530A0721D7629C600EB09D5 /* OpenSans-Regular.ttf */; };
 		55B59F771D673F2100C3C4D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B59F761D673F2100C3C4D4 /* main.m */; };
 		55B59F7A1D673F2100C3C4D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B59F791D673F2100C3C4D4 /* AppDelegate.m */; };
 		55B59F7D1D673F2100C3C4D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B59F7C1D673F2100C3C4D4 /* ViewController.m */; };
@@ -554,6 +561,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5530A05C1D75C04300EB09D5 /* ABExhibitionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABExhibitionsViewController.h; sourceTree = "<group>"; };
+		5530A05D1D75C04300EB09D5 /* ABExhibitionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABExhibitionsViewController.m; sourceTree = "<group>"; };
+		5530A0601D76170D00EB09D5 /* ABExhibitionPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABExhibitionPreviewCell.h; sourceTree = "<group>"; };
+		5530A0611D76170D00EB09D5 /* ABExhibitionPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABExhibitionPreviewCell.m; sourceTree = "<group>"; };
+		5530A0631D76222F00EB09D5 /* ABAuthorizationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABAuthorizationViewController.h; sourceTree = "<group>"; };
+		5530A0641D76222F00EB09D5 /* ABAuthorizationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABAuthorizationViewController.m; sourceTree = "<group>"; };
+		5530A06F1D7629C600EB09D5 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Bold.ttf"; path = "Fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		5530A0701D7629C600EB09D5 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-ExtraBold.ttf"; path = "Fonts/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		5530A0711D7629C600EB09D5 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Light.ttf"; path = "Fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		5530A0721D7629C600EB09D5 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "Fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		55B59F721D673F2100C3C4D4 /* ExhibitionProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExhibitionProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B59F761D673F2100C3C4D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		55B59F781D673F2100C3C4D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -1124,6 +1141,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5530A05B1D75BCD000EB09D5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5530A05C1D75C04300EB09D5 /* ABExhibitionsViewController.h */,
+				5530A05D1D75C04300EB09D5 /* ABExhibitionsViewController.m */,
+				5530A0631D76222F00EB09D5 /* ABAuthorizationViewController.h */,
+				5530A0641D76222F00EB09D5 /* ABAuthorizationViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5530A05F1D75C0FA00EB09D5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5530A0601D76170D00EB09D5 /* ABExhibitionPreviewCell.h */,
+				5530A0611D76170D00EB09D5 /* ABExhibitionPreviewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 		55B59F691D673F2100C3C4D4 = {
 			isa = PBXGroup;
 			children = (
@@ -1143,6 +1180,8 @@
 		55B59F741D673F2100C3C4D4 /* ExhibitionProject */ = {
 			isa = PBXGroup;
 			children = (
+				5530A05F1D75C0FA00EB09D5 /* Cells */,
+				5530A05B1D75BCD000EB09D5 /* ViewControllers */,
 				55B59FBD1D6CF9B400C3C4D4 /* images */,
 				55B5A1B01D6CF9B500C3C4D4 /* logos */,
 				55B59FA21D6CCE3800C3C4D4 /* NSString+NSDate.h */,
@@ -1165,6 +1204,10 @@
 		55B59F751D673F2100C3C4D4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5530A06F1D7629C600EB09D5 /* OpenSans-Bold.ttf */,
+				5530A0701D7629C600EB09D5 /* OpenSans-ExtraBold.ttf */,
+				5530A0711D7629C600EB09D5 /* OpenSans-Light.ttf */,
+				5530A0721D7629C600EB09D5 /* OpenSans-Regular.ttf */,
 				55B59F761D673F2100C3C4D4 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -1809,6 +1852,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5530A0731D762C0900EB09D5 /* OpenSans-Bold.ttf in Resources */,
+				5530A0741D762C0900EB09D5 /* OpenSans-ExtraBold.ttf in Resources */,
+				5530A0751D762C0900EB09D5 /* OpenSans-Light.ttf in Resources */,
+				5530A0761D762C0900EB09D5 /* OpenSans-Regular.ttf in Resources */,
 				55B5A2331D6CF9B500C3C4D4 /* tfss-386a4afe-9322-436f-9baf-7b57dbe36837-tal_drawing.jpg in Resources */,
 				55B5A2071D6CF9B500C3C4D4 /* tfss-1dbcd9d6-aa64-48aa-9206-9502fe3fe948-__160x120cm.JPG in Resources */,
 				55B5A25E1D6CF9B500C3C4D4 /* tfss-4b1e1645-bb51-4a10-ba2c-da6db788b900-Goldman-122.jpg in Resources */,
@@ -2352,6 +2399,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5530A05E1D75C04300EB09D5 /* ABExhibitionsViewController.m in Sources */,
+				5530A0621D76170D00EB09D5 /* ABExhibitionPreviewCell.m in Sources */,
 				55B59FB51D6CEAE800C3C4D4 /* Event.m in Sources */,
 				55B59F7D1D673F2100C3C4D4 /* ViewController.m in Sources */,
 				55B59F961D6740FF00C3C4D4 /* EventsDataLoader.m in Sources */,
@@ -2363,6 +2412,7 @@
 				55B59F771D673F2100C3C4D4 /* main.m in Sources */,
 				55B59FA41D6CCE3900C3C4D4 /* NSString+NSDate.m in Sources */,
 				55B59FB61D6CEAE800C3C4D4 /* Exhibition.m in Sources */,
+				5530A0651D76222F00EB09D5 /* ABAuthorizationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
