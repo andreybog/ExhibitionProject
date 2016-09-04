@@ -12,6 +12,7 @@
 @interface Exhibition : Event
 
 @property (strong, nonatomic) NSString *author;
+@property (strong, nonatomic) NSString *authorDescription;
 @property (assign, nonatomic) NSInteger likesCount;
 @property (strong, nonatomic) NSArray <MasterPiece *> *masterPieces;
 

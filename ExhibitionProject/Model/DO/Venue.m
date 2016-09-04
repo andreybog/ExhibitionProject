@@ -16,7 +16,7 @@
         _venueId = dictionary[@"_id"];
         _title = dictionary[@"name"];
         _address = dictionary[@"address"];
-        _about = dictionary[@"about"];
+        _about = dictionary[@"galleryDescription"];
     }
     return self;
 }

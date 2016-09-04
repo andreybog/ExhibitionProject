@@ -65,7 +65,6 @@
 }
 
 - (NSDictionary *) loadGalleriesWithError:(NSError *) error {
-    
     NSMutableDictionary *galleriesDictionary;
     NSArray *JSONArray = [self loadJSONArrayFromLocalResource:@"galleries" type:@"json" error:&error];
     
@@ -74,7 +73,6 @@
     }
     
     galleriesDictionary = [NSMutableDictionary dictionaryWithCapacity: [JSONArray count]];
-    
     
     for ( NSDictionary *galleryDict in JSONArray ) {
         Gallery *gallery = [[Gallery alloc] initWithDictionary:galleryDict];
@@ -85,7 +83,6 @@
 }
 
 - (NSDictionary *) loadMasterPiecesWithError:(NSError *) error {
-    
     NSMutableDictionary *masterPiecesDictionary;
     NSArray *JSONArray = [self loadJSONArrayFromLocalResource:@"works" type:@"json" error:&error];
     

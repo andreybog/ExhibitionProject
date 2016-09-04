@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ABExhibitionsViewController : UITableViewController
+@interface ABExhibitionsViewController : UIViewController
 
 @end

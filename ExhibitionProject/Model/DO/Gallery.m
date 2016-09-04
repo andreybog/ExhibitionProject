@@ -23,10 +23,14 @@
         }
         _phone = dictionary[@"phone"];
         _email = dictionary[@"email"];
+        _city = dictionary[@"city"];
+        _facebook = dictionary[@"facebook"];
         
         double latitude = [dictionary[@"latitude"] doubleValue];
         double longitude = [dictionary[@"longitude"] doubleValue];
         _coordinate = [[CLLocation alloc] initWithLatitude:latitude longitude:longitude];
+        
+        _schedule = dictionary[@"schedule"];
     }
     return self;
 }

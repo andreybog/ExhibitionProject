@@ -18,6 +18,9 @@
 @property (strong, nonatomic) NSString *phone;
 @property (strong, nonatomic) NSString *email;
 @property (strong, nonatomic) CLLocation *coordinate;
+@property (strong, nonatomic) NSArray *schedule;
+@property (strong, nonatomic) NSString *facebook;
+@property (strong, nonatomic) NSString *city;
 
 
 @end

@@ -14,9 +14,12 @@
 		5530A0741D762C0900EB09D5 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5530A0701D7629C600EB09D5 /* OpenSans-ExtraBold.ttf */; };
 		5530A0751D762C0900EB09D5 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5530A0711D7629C600EB09D5 /* OpenSans-Light.ttf */; };
 		5530A0761D762C0900EB09D5 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5530A0721D7629C600EB09D5 /* OpenSans-Regular.ttf */; };
+		557D97681D78C059001A6714 /* ABRoundedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 557D97671D78C059001A6714 /* ABRoundedButton.m */; };
+		557D976C1D78CC3C001A6714 /* ABExhibitionInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 557D976B1D78CC3C001A6714 /* ABExhibitionInfoViewController.m */; };
+		557D976F1D7CAA19001A6714 /* ABMasterPieceCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 557D976E1D7CAA19001A6714 /* ABMasterPieceCollectionViewCell.m */; };
+		557D97721D7CBF35001A6714 /* NSDate+NSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 557D97711D7CBF35001A6714 /* NSDate+NSString.m */; };
 		55B59F771D673F2100C3C4D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B59F761D673F2100C3C4D4 /* main.m */; };
 		55B59F7A1D673F2100C3C4D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B59F791D673F2100C3C4D4 /* AppDelegate.m */; };
-		55B59F7D1D673F2100C3C4D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B59F7C1D673F2100C3C4D4 /* ViewController.m */; };
 		55B59F801D673F2100C3C4D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55B59F7E1D673F2100C3C4D4 /* Main.storyboard */; };
 		55B59F821D673F2100C3C4D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55B59F811D673F2100C3C4D4 /* Assets.xcassets */; };
 		55B59F851D673F2100C3C4D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55B59F831D673F2100C3C4D4 /* LaunchScreen.storyboard */; };
@@ -571,12 +574,18 @@
 		5530A0701D7629C600EB09D5 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-ExtraBold.ttf"; path = "Fonts/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
 		5530A0711D7629C600EB09D5 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Light.ttf"; path = "Fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; };
 		5530A0721D7629C600EB09D5 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "Fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		557D97661D78C059001A6714 /* ABRoundedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABRoundedButton.h; sourceTree = "<group>"; };
+		557D97671D78C059001A6714 /* ABRoundedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABRoundedButton.m; sourceTree = "<group>"; };
+		557D976A1D78CC3C001A6714 /* ABExhibitionInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABExhibitionInfoViewController.h; sourceTree = "<group>"; };
+		557D976B1D78CC3C001A6714 /* ABExhibitionInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABExhibitionInfoViewController.m; sourceTree = "<group>"; };
+		557D976D1D7CAA19001A6714 /* ABMasterPieceCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABMasterPieceCollectionViewCell.h; sourceTree = "<group>"; };
+		557D976E1D7CAA19001A6714 /* ABMasterPieceCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABMasterPieceCollectionViewCell.m; sourceTree = "<group>"; };
+		557D97701D7CBF35001A6714 /* NSDate+NSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+NSString.h"; sourceTree = "<group>"; };
+		557D97711D7CBF35001A6714 /* NSDate+NSString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+NSString.m"; sourceTree = "<group>"; };
 		55B59F721D673F2100C3C4D4 /* ExhibitionProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExhibitionProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B59F761D673F2100C3C4D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		55B59F781D673F2100C3C4D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		55B59F791D673F2100C3C4D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		55B59F7B1D673F2100C3C4D4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		55B59F7C1D673F2100C3C4D4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		55B59F7F1D673F2100C3C4D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55B59F811D673F2100C3C4D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55B59F841D673F2100C3C4D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -1146,6 +1155,8 @@
 			children = (
 				5530A05C1D75C04300EB09D5 /* ABExhibitionsViewController.h */,
 				5530A05D1D75C04300EB09D5 /* ABExhibitionsViewController.m */,
+				557D976A1D78CC3C001A6714 /* ABExhibitionInfoViewController.h */,
+				557D976B1D78CC3C001A6714 /* ABExhibitionInfoViewController.m */,
 				5530A0631D76222F00EB09D5 /* ABAuthorizationViewController.h */,
 				5530A0641D76222F00EB09D5 /* ABAuthorizationViewController.m */,
 			);
@@ -1157,8 +1168,19 @@
 			children = (
 				5530A0601D76170D00EB09D5 /* ABExhibitionPreviewCell.h */,
 				5530A0611D76170D00EB09D5 /* ABExhibitionPreviewCell.m */,
+				557D976D1D7CAA19001A6714 /* ABMasterPieceCollectionViewCell.h */,
+				557D976E1D7CAA19001A6714 /* ABMasterPieceCollectionViewCell.m */,
 			);
 			name = Cells;
+			sourceTree = "<group>";
+		};
+		557D97691D78CB8A001A6714 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				557D97661D78C059001A6714 /* ABRoundedButton.h */,
+				557D97671D78C059001A6714 /* ABRoundedButton.m */,
+			);
+			name = Buttons;
 			sourceTree = "<group>";
 		};
 		55B59F691D673F2100C3C4D4 = {
@@ -1186,17 +1208,18 @@
 				55B5A1B01D6CF9B500C3C4D4 /* logos */,
 				55B59FA21D6CCE3800C3C4D4 /* NSString+NSDate.h */,
 				55B59FA31D6CCE3900C3C4D4 /* NSString+NSDate.m */,
+				557D97701D7CBF35001A6714 /* NSDate+NSString.h */,
+				557D97711D7CBF35001A6714 /* NSDate+NSString.m */,
 				55B59F971D67418F00C3C4D4 /* Data */,
 				55B59F8C1D673F3300C3C4D4 /* Model */,
 				55B59F781D673F2100C3C4D4 /* AppDelegate.h */,
 				55B59F791D673F2100C3C4D4 /* AppDelegate.m */,
-				55B59F7B1D673F2100C3C4D4 /* ViewController.h */,
-				55B59F7C1D673F2100C3C4D4 /* ViewController.m */,
 				55B59F7E1D673F2100C3C4D4 /* Main.storyboard */,
 				55B59F811D673F2100C3C4D4 /* Assets.xcassets */,
 				55B59F831D673F2100C3C4D4 /* LaunchScreen.storyboard */,
 				55B59F861D673F2100C3C4D4 /* Info.plist */,
 				55B59F751D673F2100C3C4D4 /* Supporting Files */,
+				557D97691D78CB8A001A6714 /* Buttons */,
 			);
 			path = ExhibitionProject;
 			sourceTree = "<group>";
@@ -2402,16 +2425,19 @@
 				5530A05E1D75C04300EB09D5 /* ABExhibitionsViewController.m in Sources */,
 				5530A0621D76170D00EB09D5 /* ABExhibitionPreviewCell.m in Sources */,
 				55B59FB51D6CEAE800C3C4D4 /* Event.m in Sources */,
-				55B59F7D1D673F2100C3C4D4 /* ViewController.m in Sources */,
 				55B59F961D6740FF00C3C4D4 /* EventsDataLoader.m in Sources */,
 				55B59FB91D6CEAE800C3C4D4 /* Venue.m in Sources */,
 				55B59F7A1D673F2100C3C4D4 /* AppDelegate.m in Sources */,
 				55B59FBC1D6CF35200C3C4D4 /* EventsManager.m in Sources */,
+				557D976C1D78CC3C001A6714 /* ABExhibitionInfoViewController.m in Sources */,
+				557D97721D7CBF35001A6714 /* NSDate+NSString.m in Sources */,
+				557D976F1D7CAA19001A6714 /* ABMasterPieceCollectionViewCell.m in Sources */,
 				55B59FB81D6CEAE800C3C4D4 /* MasterPiece.m in Sources */,
 				55B59FB71D6CEAE800C3C4D4 /* Gallery.m in Sources */,
 				55B59F771D673F2100C3C4D4 /* main.m in Sources */,
 				55B59FA41D6CCE3900C3C4D4 /* NSString+NSDate.m in Sources */,
 				55B59FB61D6CEAE800C3C4D4 /* Exhibition.m in Sources */,
+				557D97681D78C059001A6714 /* ABRoundedButton.m in Sources */,
 				5530A0651D76222F00EB09D5 /* ABAuthorizationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

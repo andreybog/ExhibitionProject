@@ -14,6 +14,7 @@
     if ( self = [super initWithDictionary:dictionary] ) {
         _author = dictionary[@"authorName"];
         _likesCount = [dictionary[@"likesCount"] integerValue];
+        _authorDescription = dictionary[@"authorDescription"];
     }
     return self;
 }
