@@ -11,7 +11,7 @@
 #import "Gallery.h"
 #import "NSDate+NSString.h"
 
-static CGFloat const kGalleryInfoViewHeight = 300.0;
+static CGFloat const kGalleryInfoViewHeight = 250.0;
 
 @interface ABExhibitionInfoViewController() <UICollectionViewDelegate, UICollectionViewDataSource>
 
