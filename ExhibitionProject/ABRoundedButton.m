@@ -13,6 +13,17 @@
 
 #pragma mark - Properties
 
+- (void)awakeFromNib {
+    [super awakeFromNib];
+    [self drawRectangleBorders];
+}
+
+- (void) drawRectangleBorders {
+    self.layer.cornerRadius = CGRectGetHeight(self.bounds)/2.0;
+    self.layer.borderWidth = 2.0;
+    self.layer.borderColor = [UIColor whiteColor].CGColor;
+}
+
 - (void) setTitle:(NSString *)title forState:(UIControlState)state {
     [super setTitle:title forState:state];
     
@@ -26,28 +37,6 @@
     [self.superview setBounds:rect];
     [self setNeedsDisplay];
     
-}
-
-#pragma mark - Drawing
-
-- (void)drawRect:(CGRect)rect {
-    [super drawRect:rect];
-    [self drawRoundRectangle];
-}
-
-- (void) drawRoundRectangle {
-    CGContextRef context = UIGraphicsGetCurrentContext();
-    CGRect insetRect = CGRectInset(self.bounds, CGRectGetWidth(self.bounds)*0.02, CGRectGetHeight(self.bounds)*0.02);
-    
-    CGMutablePathRef path = CGPathCreateMutable();
-    CGFloat cornerRadius = CGRectGetHeight(insetRect)/2;
-    
-    CGPathAddRoundedRect(path, 0, insetRect, cornerRadius, cornerRadius);
-    CGContextAddPath(context, path);
-    CGContextSetStrokeColorWithColor(context, [UIColor whiteColor].CGColor);
-    CGContextSetLineWidth(context, 2.0);
-    CGContextStrokePath(context);
-    CGPathRelease(path);
 }
 
 @end

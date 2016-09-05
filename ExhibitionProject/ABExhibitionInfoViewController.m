@@ -30,6 +30,7 @@ static CGFloat const kGalleryInfoViewHeight = 250.0;
 @property (weak, nonatomic) IBOutlet UILabel        *galleryFacebookLabel;
 @property (weak, nonatomic) IBOutlet UILabel        *galleryDescriptionLabel;
 
+@property (weak, nonatomic) IBOutlet UIView *galleryInfoView;
 
 @property (weak, nonatomic) IBOutlet UIButton *showGalleryInfoButton;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *masterPiecesCollectionViewHieghtConstraint;
@@ -51,7 +52,7 @@ static CGFloat const kGalleryInfoViewHeight = 250.0;
     }
     
     self.galleryInfoShown = NO;
-    [self galleryInfoShow:NO animation:NO];
+    [self galleryInfoShow:NO animation:NO]; 
     
     [self setupLabels];
 }
@@ -65,7 +66,6 @@ static CGFloat const kGalleryInfoViewHeight = 250.0;
     self.exhibitionTitleLabel.text = exhibition.title;
     self.exhibitionAuthorLabel.text = exhibition.author;
  
-    
     NSMutableAttributedString *tempString = [[NSMutableAttributedString alloc] initWithString:[NSString stringWithFormat:@"About\n\n%@", exhibition.about]];
     [tempString addAttributes:@{NSFontAttributeName : [UIFont fontWithName:@"OpenSans-Bold" size: 14.0]}
                          range:[tempString.string rangeOfString:@"About"]];
@@ -79,7 +79,6 @@ static CGFloat const kGalleryInfoViewHeight = 250.0;
     self.exhibitionPeriodLabel.text = [NSString stringWithFormat:@"%@ - %@",
                                        [exhibition.dateStart stringWithFormat:@"dd.MM.yy"],
                                        [exhibition.dateEnd stringWithFormat:@"dd.MM.yy"]];
-    
     
     self.galleryTitleLabel.text = gallery.title;
     self.galleryLinkLabel.text =  [gallery.linkUrl absoluteString];
@@ -99,13 +98,22 @@ static CGFloat const kGalleryInfoViewHeight = 250.0;
 }
 
 - (void) galleryInfoShow:(BOOL) show animation:(BOOL)animation {
-    
     self.galleryInfoViewHeightConstraint.constant = show ? kGalleryInfoViewHeight : 0;
+    
+    if (show) {
+        self.galleryInfoView.hidden = NO;
+    }
     
     if ( animation ) {
         [UIView animateWithDuration:0.5 animations:^{
             [self.view layoutIfNeeded];
+        } completion:^(BOOL finished) {
+            if (!show) {
+                self.galleryInfoView.hidden = YES;
+            }
         }];
+    } else if ( !show ) {
+        self.galleryInfoView.hidden = YES;
     }
 }
 
@@ -114,6 +122,7 @@ static CGFloat const kGalleryInfoViewHeight = 250.0;
 - (IBAction)actionBackButtonPressed:(UIBarButtonItem *)sender {
     [self.navigationController popViewControllerAnimated:YES];
 }
+
 - (IBAction)actionShowGalleryInfoButtonPressed:(UIButton *)sender {
     self.galleryInfoShown = !self.isGalleryInfoShown;
     
@@ -124,7 +133,6 @@ static CGFloat const kGalleryInfoViewHeight = 250.0;
     [UIView animateWithDuration:0.5 animations:^{
         self.showGalleryInfoButton.transform = transform;
     }];
-    
 }
 
 #pragma mark - UICollectionViewDataSource
