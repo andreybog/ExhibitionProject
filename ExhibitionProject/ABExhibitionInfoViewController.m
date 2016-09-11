@@ -8,6 +8,7 @@
 
 #import "ABExhibitionInfoViewController.h"
 #import "ABMasterPieceCollectionViewCell.h"
+#import "ABMasterPieceViewController.h"
 #import "Gallery.h"
 #import "NSDate+NSString.h"
 
@@ -153,5 +154,13 @@ static CGFloat const kGalleryInfoViewHeight = 250.0;
 }
 
 #pragma mark - UICollectionViewDelegate
+
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
+    MasterPiece *masterPiece = [self.exhibition.masterPieces objectAtIndex:indexPath.row];
+    ABMasterPieceViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"ABMasterPieceViewController"];
+    
+    vc.masterPiece = masterPiece;
+    [self.navigationController pushViewController:vc animated:YES];
+}
 
 @end

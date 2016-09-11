@@ -43,16 +43,7 @@
             return;
         }
         weakSelf.events = array;
-//        [weakSelf printEvents];
     }];
-}
-
-//debug method
-- (void) printEvents {
-    for ( Event *event in self.events ) {
-        NSLog(@"%@", event);
-    }
-    NSLog(@"COUNT: %ld", [self.events count]);
 }
 
 @end

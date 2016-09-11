@@ -20,7 +20,7 @@
 }
 
 - (NSString *)description {
-    return [NSString stringWithFormat:@"EXHIBITION: %@ GALLERY - %@ WORKS - %ld",
+    return [NSString stringWithFormat:@"EXHIBITION: %@ GALLERY - %@ WORKS - %u",
             self.title, self.venue.title, [self.masterPieces count]];
 }
 

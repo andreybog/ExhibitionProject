@@ -17,6 +17,7 @@
 @property (strong, nonatomic) NSURL *pictureUrl;
 @property (strong, nonatomic) NSString *type;
 @property (assign, nonatomic) NSInteger year;
+@property (strong, nonatomic) NSString *size;
 
 @property (assign, nonatomic) float price;
 

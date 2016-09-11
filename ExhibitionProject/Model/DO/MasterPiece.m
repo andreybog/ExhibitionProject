@@ -23,6 +23,7 @@
             _pictureUrl = [NSURL fileURLWithPath:picturePath];
         }
         _type = dictionary[@"type"];
+        _size = dictionary[@"size"];
         
         id year = dictionary[@"year"];
         if ( year != [NSNull null]  ) {
