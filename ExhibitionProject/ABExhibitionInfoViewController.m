@@ -11,6 +11,7 @@
 #import "ABMasterPieceViewController.h"
 #import "Gallery.h"
 #import "NSDate+NSString.h"
+#import "UIImageView+AFNetworking.h"
 
 static CGFloat const kGalleryInfoViewHeight = 250.0;
 
@@ -146,9 +147,20 @@ static CGFloat const kGalleryInfoViewHeight = 250.0;
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     ABMasterPieceCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:ABMasterPieceCollectionViewCellIdentifier forIndexPath:indexPath];
     MasterPiece *masterPiece = [self.exhibition.masterPieces objectAtIndex:indexPath.row];
-    UIImage *masterPieceImage = [UIImage imageWithData:[NSData dataWithContentsOfURL:masterPiece.pictureUrl]];
+    __weak typeof(cell) weakCell = cell;
     
-    cell.imageView.image = masterPieceImage;
+    cell.imageView.image = nil;
+    
+    NSURLRequest *request = [NSURLRequest requestWithURL:masterPiece.pictureUrl];
+    
+    [cell.imageView setImageWithURLRequest:request
+      placeholderImage:nil
+               success:^(NSURLRequest * _Nonnull request, NSHTTPURLResponse * _Nullable response, UIImage * _Nonnull image) {
+                   weakCell.imageView.image = image;
+                   [weakCell layoutSubviews];
+               } failure:^(NSURLRequest * _Nonnull request, NSHTTPURLResponse * _Nullable response, NSError * _Nonnull error) {
+                   
+               }];
     
     return cell;
 }

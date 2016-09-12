@@ -12,9 +12,10 @@
 
 - (instancetype) initWithDictionary:(NSDictionary *)dictionary {
     if ( self = [super initWithDictionary:dictionary] ) {
-        NSString *logoPath = [[NSBundle mainBundle] pathForResource:dictionary[@"galleryLogo"] ofType:nil];
-        if ( logoPath ) {
-            _logoUrl = [NSURL fileURLWithPath:logoPath];
+        NSString *logoURLString = [dictionary valueForKeyPath:@"galleryLogo.url"];
+        
+        if ( logoURLString ) {
+            _logoUrl = [NSURL URLWithString:logoURLString];
         }
         
         NSString *urlString = dictionary[@"link"];
@@ -34,6 +35,17 @@
     }
     return self;
 }
+
+/*
+ @property (strong, nonatomic) NSURL *logoUrl;
+ @property (strong, nonatomic) NSURL *linkUrl;
+ @property (strong, nonatomic) NSString *phone;
+ @property (strong, nonatomic) NSString *email;
+ @property (strong, nonatomic) CLLocation *coordinate;
+ @property (strong, nonatomic) NSArray *schedule;
+ @property (strong, nonatomic) NSString *facebook;
+ @property (strong, nonatomic) NSString *city;
+ */
 
 - (NSString *)description {
     
