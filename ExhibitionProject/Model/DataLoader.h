@@ -27,6 +27,4 @@ typedef NS_ENUM(NSUInteger, ABEventsOptionFilter) {
                        option:(ABEventsOptionFilter)option
                     onSuccess:(void(^)(NSArray *array)) success
                     onFailure:(void(^)(NSError *error)) failure;
-
-
 @end

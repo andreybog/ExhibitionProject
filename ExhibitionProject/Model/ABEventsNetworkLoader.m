@@ -84,7 +84,6 @@
                          
                          for ( NSDictionary *dict in exhibitionsResponse ) {
                              __block NSMutableDictionary *eventDict = [NSMutableDictionary dictionaryWithDictionary:dict];
-                             
                              NSString *exhibitionId = dict[@"objectId"];
                              
                              //obtain masterPieces dictionaries
@@ -112,9 +111,6 @@
                                   }
                               }];
                          }
-                    
-
-                         
                      } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
                          if ( failure ) {
                              failure(error);

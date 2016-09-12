@@ -89,8 +89,19 @@ static CGFloat const kGalleryInfoViewHeight = 250.0;
     self.galleryPhoneLabel.text = gallery.phone;
     
     if (gallery.logoUrl) {
-        UIImage *galleryLogoImage = [UIImage imageWithData:[NSData dataWithContentsOfURL:gallery.logoUrl]];
-        self.galleryLogoImageView.image = galleryLogoImage;
+        
+        NSURLRequest *request = [NSURLRequest requestWithURL:gallery.logoUrl];
+        
+        __weak typeof(self) weakSelf = self;
+        
+        [self.galleryLogoImageView setImageWithURLRequest:request
+                                         placeholderImage:nil
+                                                  success:^(NSURLRequest * _Nonnull request, NSHTTPURLResponse * _Nullable response, UIImage * _Nonnull image) {
+                                                      weakSelf.galleryLogoImageView.image = image;
+                                                  } failure:^(NSURLRequest * _Nonnull request, NSHTTPURLResponse * _Nullable response, NSError * _Nonnull error) {
+                                                      
+                                                  }];
+        
     } else {
         self.galleryLogoImageView.image = nil;
     }
