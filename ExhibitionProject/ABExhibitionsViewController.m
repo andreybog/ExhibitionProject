@@ -12,12 +12,14 @@
 #import "Exhibition.h"
 #import "ABExhibitionPreviewCell.h"
 #import "ABRoundedButton.h"
+#import "UIImageView+AFNetworking.h"
 
 @interface ABExhibitionsViewController()
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (weak, nonatomic) IBOutlet ABRoundedButton *filterButton;
 @property (strong, nonatomic) UIImage *navigationBarBackgroundImage;
 @property (strong, nonatomic) UIImage *navigationBarShadowImage;
+@property (assign, nonatomic, getter=isEventsLoading) BOOL eventsLoading;
 
 @end
 
@@ -35,6 +37,30 @@
     self.navigationBarShadowImage = [self.navigationController.navigationBar shadowImage];
    
     [self.filterButton setTitle:@"Near me" forState:UIControlStateNormal];
+    [self loadEvents];
+}
+
+- (void) loadEvents {
+    [[EventsManager sharedEventsManager] loadEventsWithOption:0
+        onSuccess:^(NSArray *array) {
+            int eventsArrayCount = (int)[EventsManager sharedEventsManager].events.count;
+            NSMutableArray *indexPaths = [NSMutableArray arrayWithCapacity:array.count];
+            
+            for ( int i = eventsArrayCount - (int)array.count; i < eventsArrayCount; i++ ) {
+                NSIndexPath *indexPath = [NSIndexPath indexPathForRow:i inSection:0];
+                [indexPaths addObject:indexPath];
+            }
+            
+            [self.tableView beginUpdates];
+            [self.tableView insertRowsAtIndexPaths:indexPaths withRowAnimation:UITableViewRowAnimationFade];
+            [self.tableView endUpdates];
+            self.eventsLoading = NO;
+            
+            NSLog(@"updateTable");
+        } onFailure:^(NSError *error) {
+            NSLog(@"func: loadEvents ERROR: %@", [error localizedDescription]);
+        }];
+
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
@@ -86,7 +112,19 @@
     cell.distanceLabel.text = @"1 km";
     
     MasterPiece *masterPiece = [exhibition.masterPieces firstObject];
-    cell.previewImage.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:masterPiece.pictureUrl]];
+
+    cell.previewImage.image = nil;
+    
+    __weak typeof(cell) weakCell = cell;
+    NSURLRequest *request = [NSURLRequest requestWithURL:masterPiece.pictureUrl];
+    [cell.previewImage setImageWithURLRequest:request
+                             placeholderImage:nil success:^(NSURLRequest * _Nonnull request, NSHTTPURLResponse * _Nullable response, UIImage * _Nonnull image) {
+                                 weakCell.previewImage.image = image;
+                                 [weakCell layoutSubviews];
+                             } failure:^(NSURLRequest * _Nonnull request, NSHTTPURLResponse * _Nullable response, NSError * _Nonnull error) {
+                                 
+                             }];
+    
 }
 
 #pragma mark - UITableViewDelegate
@@ -111,4 +149,15 @@
     
 }
 
+#pragma mark - UIScrollViewDelegate
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    if ( scrollView.contentOffset.y + CGRectGetHeight(scrollView.bounds) == scrollView.contentSize.height &&
+        !self.isEventsLoading ) {
+        
+        self.eventsLoading = YES;
+        [self loadEvents];
+        
+    }
+}
 @end

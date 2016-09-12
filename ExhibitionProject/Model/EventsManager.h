@@ -7,6 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ABEventsNetworkLoader.h"
+
 #import "Event.h"
 
 @interface EventsManager : NSObject
@@ -15,6 +17,8 @@
 
 + (EventsManager *) sharedEventsManager;
 - (void) loadEvents;
-
+- (void) loadEventsWithOption:(ABEventsOptionFilter)option
+                    onSuccess:(void(^)(NSArray *array)) success
+                    onFailure:(void(^)(NSError *)) failure;
 
 @end

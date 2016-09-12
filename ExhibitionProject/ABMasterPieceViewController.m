@@ -7,6 +7,7 @@
 //
 
 #import "ABMasterPieceViewController.h"
+#import "UIImageView+AFNetworking.h"
 
 @interface ABMasterPieceViewController()
 
@@ -31,10 +32,21 @@
 - (void)setupUI {
     self.authorLabel.text = self.masterPiece.author;
     self.masterPieceTitleLabel.text = self.masterPiece.title;
-    self.yearLabel.text = self.masterPiece.year ? nil : [NSString stringWithFormat:@"%d", self.masterPiece.year];
+    self.yearLabel.text = self.masterPiece.year ? nil : [NSString stringWithFormat:@"%ld", self.masterPiece.year];
     self.typeLabel.text = self.masterPiece.type;
     self.sizeLabel.text = self.masterPiece.size;
-    self.masterPieceImageView.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:self.masterPiece.pictureUrl]];
+    
+    
+    NSURLRequest *request = [NSURLRequest requestWithURL:self.masterPiece.pictureUrl];
+    __weak typeof(self) weakSelf = self;
+    
+    [self.masterPieceImageView setImageWithURLRequest:request
+         placeholderImage:nil success:^(NSURLRequest * _Nonnull request, NSHTTPURLResponse * _Nullable response, UIImage * _Nonnull image) {
+             weakSelf.masterPieceImageView.image = image;
+         } failure:^(NSURLRequest * _Nonnull request, NSHTTPURLResponse * _Nullable response, NSError * _Nonnull error) {
+             
+         }];
+
 }
 
 #pragma mark - Actions

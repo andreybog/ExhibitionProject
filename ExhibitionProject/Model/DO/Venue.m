@@ -13,7 +13,7 @@
 
 - (instancetype) initWithDictionary:(NSDictionary *)dictionary {
     if ( self = [super init] ) {
-        _venueId = dictionary[@"_id"];
+        _venueId = dictionary[@"objectId"];
         _title = dictionary[@"name"];
         _address = dictionary[@"address"];
         _about = dictionary[@"galleryDescription"];

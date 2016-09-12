@@ -7,7 +7,8 @@
 //
 
 #import "EventsManager.h"
-#import "EventsDataLoader.h"
+#import "ABEventsNetworkLoader.h"
+
 
 @interface EventsManager()
 
@@ -17,6 +18,8 @@
 @end
 
 @implementation EventsManager
+
+static NSInteger kEventsInRequest = 10;
 
 + (EventsManager *) sharedEventsManager {
     static EventsManager *eventManager = nil;
@@ -29,9 +32,33 @@
 
 - (instancetype)init {
     if ( self = [super init] ) {
-        self.dataLoader = [[EventsDataLoader alloc] init];
+//        self.dataLoader = [[EventsDataLoader alloc] init];
+        self.dataLoader = [[ABEventsNetworkLoader alloc] init];
     }
     return self;
+}
+
+- (void) loadEventsWithOption:(ABEventsOptionFilter)option
+                    onSuccess:(void(^)(NSArray *array)) success
+                    onFailure:(void(^)(NSError *)) failure {
+    
+    __weak typeof(self) weakSelf = self;
+    
+    [self.dataLoader loadEventsWithOffset:self.events.count
+                                    limit:kEventsInRequest
+                                   option:option
+                                onSuccess:^(NSArray *array) {
+                                    NSMutableArray *events = [NSMutableArray arrayWithArray:weakSelf.events];
+                                    
+                                    [events addObjectsFromArray:array];
+                                    
+                                    weakSelf.events = events;
+                                    
+                                    if ( success ) {
+                                        success(array);
+                                    }
+                                } onFailure:failure];
+    
 }
 
 - (void) loadEvents {
@@ -42,6 +69,7 @@
             NSLog(@"ERROR: %@", [error localizedFailureReason]);
             return;
         }
+        
         weakSelf.events = array;
     }];
 }
