@@ -31,6 +31,7 @@
 		553CA30F1D85F17600D2F9A1 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 553CA2FF1D85F17600D2F9A1 /* UIRefreshControl+AFNetworking.m */; };
 		553CA3101D85F17600D2F9A1 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 553CA3011D85F17600D2F9A1 /* UIWebView+AFNetworking.m */; };
 		553CA3141D85FDE500D2F9A1 /* ABEventsNetworkLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 553CA3131D85FDE500D2F9A1 /* ABEventsNetworkLoader.m */; };
+		553CA3171D86F53500D2F9A1 /* ABImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 553CA3161D86F53500D2F9A1 /* ABImageLoader.m */; };
 		557D97681D78C059001A6714 /* ABRoundedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 557D97671D78C059001A6714 /* ABRoundedButton.m */; };
 		557D976C1D78CC3C001A6714 /* ABExhibitionInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 557D976B1D78CC3C001A6714 /* ABExhibitionInfoViewController.m */; };
 		557D976F1D7CAA19001A6714 /* ABMasterPieceCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 557D976E1D7CAA19001A6714 /* ABMasterPieceCollectionViewCell.m */; };
@@ -98,6 +99,8 @@
 		553CA3111D85FD5600D2F9A1 /* DataLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataLoader.h; sourceTree = "<group>"; };
 		553CA3121D85FDE500D2F9A1 /* ABEventsNetworkLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABEventsNetworkLoader.h; sourceTree = "<group>"; };
 		553CA3131D85FDE500D2F9A1 /* ABEventsNetworkLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABEventsNetworkLoader.m; sourceTree = "<group>"; };
+		553CA3151D86F53500D2F9A1 /* ABImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABImageLoader.h; sourceTree = "<group>"; };
+		553CA3161D86F53500D2F9A1 /* ABImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABImageLoader.m; sourceTree = "<group>"; };
 		557D97661D78C059001A6714 /* ABRoundedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABRoundedButton.h; sourceTree = "<group>"; };
 		557D97671D78C059001A6714 /* ABRoundedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABRoundedButton.m; sourceTree = "<group>"; };
 		557D976A1D78CC3C001A6714 /* ABExhibitionInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABExhibitionInfoViewController.h; sourceTree = "<group>"; };
@@ -294,6 +297,8 @@
 				55B59FBA1D6CF35200C3C4D4 /* EventsManager.h */,
 				55B59FBB1D6CF35200C3C4D4 /* EventsManager.m */,
 				55B59FA11D6CCDE700C3C4D4 /* DO */,
+				553CA3151D86F53500D2F9A1 /* ABImageLoader.h */,
+				553CA3161D86F53500D2F9A1 /* ABImageLoader.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -397,6 +402,7 @@
 				553CA3031D85F17600D2F9A1 /* AFNetworkReachabilityManager.m in Sources */,
 				553CA3101D85F17600D2F9A1 /* UIWebView+AFNetworking.m in Sources */,
 				553CA3091D85F17600D2F9A1 /* AFImageDownloader.m in Sources */,
+				553CA3171D86F53500D2F9A1 /* ABImageLoader.m in Sources */,
 				5530A0621D76170D00EB09D5 /* ABExhibitionPreviewCell.m in Sources */,
 				55B59FB51D6CEAE800C3C4D4 /* Event.m in Sources */,
 				553CA30B1D85F17600D2F9A1 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
