@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "EventsManager.h"
+#import "AFNetworkActivityIndicatorManager.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +18,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [[EventsManager sharedEventsManager] loadEvents];
+//    [[EventsManager sharedEventsManager] loadEvents];
+    [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:YES];
+
     
     return YES;
 }

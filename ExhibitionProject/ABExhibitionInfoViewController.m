@@ -11,6 +11,7 @@
 #import "ABMasterPieceViewController.h"
 #import "Gallery.h"
 #import "NSDate+NSString.h"
+#import "UIImageView+AFNetworking.h"
 
 static CGFloat const kGalleryInfoViewHeight = 250.0;
 
@@ -88,8 +89,19 @@ static CGFloat const kGalleryInfoViewHeight = 250.0;
     self.galleryPhoneLabel.text = gallery.phone;
     
     if (gallery.logoUrl) {
-        UIImage *galleryLogoImage = [UIImage imageWithData:[NSData dataWithContentsOfURL:gallery.logoUrl]];
-        self.galleryLogoImageView.image = galleryLogoImage;
+        
+        NSURLRequest *request = [NSURLRequest requestWithURL:gallery.logoUrl];
+        
+        __weak typeof(self) weakSelf = self;
+        
+        [self.galleryLogoImageView setImageWithURLRequest:request
+                                         placeholderImage:nil
+                                                  success:^(NSURLRequest * _Nonnull request, NSHTTPURLResponse * _Nullable response, UIImage * _Nonnull image) {
+                                                      weakSelf.galleryLogoImageView.image = image;
+                                                  } failure:^(NSURLRequest * _Nonnull request, NSHTTPURLResponse * _Nullable response, NSError * _Nonnull error) {
+                                                      
+                                                  }];
+        
     } else {
         self.galleryLogoImageView.image = nil;
     }
@@ -146,9 +158,20 @@ static CGFloat const kGalleryInfoViewHeight = 250.0;
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     ABMasterPieceCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:ABMasterPieceCollectionViewCellIdentifier forIndexPath:indexPath];
     MasterPiece *masterPiece = [self.exhibition.masterPieces objectAtIndex:indexPath.row];
-    UIImage *masterPieceImage = [UIImage imageWithData:[NSData dataWithContentsOfURL:masterPiece.pictureUrl]];
+    __weak typeof(cell) weakCell = cell;
     
-    cell.imageView.image = masterPieceImage;
+    cell.imageView.image = nil;
+    
+    NSURLRequest *request = [NSURLRequest requestWithURL:masterPiece.pictureUrl];
+    
+    [cell.imageView setImageWithURLRequest:request
+      placeholderImage:nil
+               success:^(NSURLRequest * _Nonnull request, NSHTTPURLResponse * _Nullable response, UIImage * _Nonnull image) {
+                   weakCell.imageView.image = image;
+                   [weakCell layoutSubviews];
+               } failure:^(NSURLRequest * _Nonnull request, NSHTTPURLResponse * _Nullable response, NSError * _Nonnull error) {
+                   
+               }];
     
     return cell;
 }

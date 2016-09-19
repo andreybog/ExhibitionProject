@@ -12,15 +12,15 @@
 
 - (instancetype) initWithDictionary:(NSDictionary *)dictionary {
     if ( self = [super init] ) {
-        _masterPieceId = dictionary[@"_id"];
+        _masterPieceId = dictionary[@"objectId"];
         _title = dictionary[@"title"];
         _about = dictionary[@"about"];
         _author = dictionary[@"author"];
         
-        NSString *picturePath = [[NSBundle mainBundle] pathForResource:dictionary[@"imgPicture"] ofType:nil];
+        NSString *pictureURLString = [dictionary valueForKeyPath:@"imgPicture.url"];
         
-        if ( picturePath ) {
-            _pictureUrl = [NSURL fileURLWithPath:picturePath];
+        if ( pictureURLString ) {
+            _pictureUrl = [NSURL URLWithString:pictureURLString];
         }
         _type = dictionary[@"type"];
         _size = dictionary[@"size"];
