@@ -68,7 +68,6 @@
                     onSuccess:(void(^)(NSArray *array)) success
                     onFailure:(void(^)(NSError *)) failure {
     
-    __weak typeof(self) weakSelf = self;
     NSString *methodString = [self methodString:@"exhibitions" withFilter:option];
     NSDictionary *params = @{
                              @"skip"    : @(offset),
@@ -79,44 +78,20 @@
                   parameters:params
                     progress:nil
                      success:^(NSURLSessionDataTask * _Nonnull task, NSArray *exhibitionsResponse) {
-                         
                          __block NSMutableArray *eventsArray = [NSMutableArray arrayWithCapacity:exhibitionsResponse.count];
                          
                          for ( NSDictionary *dict in exhibitionsResponse ) {
-                             __block NSMutableDictionary *eventDict = [NSMutableDictionary dictionaryWithDictionary:dict];
-                             NSString *exhibitionId = dict[@"objectId"];
-                             
-                             //obtain masterPieces dictionaries
-                             [weakSelf.exhibitionsSessionManager GET:exhibitionId
-                                                          parameters:nil
-                                                            progress:nil
-                                                             success:
-                              ^(NSURLSessionDataTask * _Nonnull task, NSDictionary *exhibitionResponse) {
-                                  NSArray *works = exhibitionResponse[@"works"];
-                                  if ( works ) {
-                                      eventDict[@"works"] = works;
-                                  }
-                                  
-                                  Exhibition *exhibition = [[Exhibition alloc] initWithDictionary:eventDict];
+                                  Exhibition *exhibition = [[Exhibition alloc] initWithDictionary:dict];
                                   [eventsArray addObject:exhibition];
-                                  
-                                  if ( eventsArray.count == exhibitionsResponse.count && success ) {
-                                      success([NSArray arrayWithArray:eventsArray]);
-                                  }
-                                  
-                              } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-                                  if ( failure ) {
-                                      NSLog(@"func: exhibitions request ERROR: %@", error.localizedDescription);
-                                      return failure(error);
-                                  }
-                              }];
+                         }
+                         if ( success ) {
+                             success([NSArray arrayWithArray:eventsArray]);
                          }
                      } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
                          if ( failure ) {
                              failure(error);
                          }
                      }];
-    
 }
 
 - (NSString *) methodString:(NSString *)methodString withFilter:(ABEventsOptionFilter) filter {

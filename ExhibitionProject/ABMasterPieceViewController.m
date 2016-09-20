@@ -8,6 +8,7 @@
 
 #import "ABMasterPieceViewController.h"
 #import "UIImageView+AFNetworking.h"
+#import "ABImageLoader.h"
 
 @interface ABMasterPieceViewController()
 
@@ -25,7 +26,6 @@
 
 - (void) viewDidLoad {
     [super viewDidLoad];
-    
     [self setupUI];
 }
 
@@ -36,17 +36,22 @@
     self.typeLabel.text = self.masterPiece.type;
     self.sizeLabel.text = self.masterPiece.size;
     
-    
-    NSURLRequest *request = [NSURLRequest requestWithURL:self.masterPiece.pictureUrl];
     __weak typeof(self) weakSelf = self;
     
-    [self.masterPieceImageView setImageWithURLRequest:request
-         placeholderImage:nil success:^(NSURLRequest * _Nonnull request, NSHTTPURLResponse * _Nullable response, UIImage * _Nonnull image) {
-             weakSelf.masterPieceImageView.image = image;
-         } failure:^(NSURLRequest * _Nonnull request, NSHTTPURLResponse * _Nullable response, NSError * _Nonnull error) {
-             
-         }];
-
+    if ( self.masterPiece.pictureUrl ) {
+        NSString *imageViewIdentifier = [NSString stringWithFormat:@"%p", weakSelf.masterPieceImageView];
+        [[ABImageLoader sharedImageLoader] loadImageWithURL:weakSelf.masterPiece.pictureUrl
+                                                 identifier:imageViewIdentifier
+                                                  onSuccess:^(UIImage *image) {
+                                                      dispatch_async(dispatch_get_main_queue(), ^{
+                                                          weakSelf.masterPieceImageView.image = image;
+                                                      });
+                                                  } onFailure:^(NSError *error) {
+                                                      
+                                                  }];
+    } else {
+        self.masterPieceImageView.image = nil;
+    }
 }
 
 #pragma mark - Actions

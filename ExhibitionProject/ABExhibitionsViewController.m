@@ -13,6 +13,7 @@
 #import "ABExhibitionPreviewCell.h"
 #import "ABRoundedButton.h"
 #import "UIImageView+AFNetworking.h"
+#import "ABImageLoader.h"
 
 @interface ABExhibitionsViewController()
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -115,19 +116,19 @@
     cell.distanceLabel.text = @"1 km";
     
     MasterPiece *masterPiece = [exhibition.masterPieces firstObject];
-
     cell.previewImage.image = nil;
-    
     __weak typeof(cell) weakCell = cell;
-    NSURLRequest *request = [NSURLRequest requestWithURL:masterPiece.pictureUrl];
-    [cell.previewImage setImageWithURLRequest:request
-                             placeholderImage:nil success:^(NSURLRequest * _Nonnull request, NSHTTPURLResponse * _Nullable response, UIImage * _Nonnull image) {
-                                 weakCell.previewImage.image = image;
-                                 [weakCell layoutSubviews];
-                             } failure:^(NSURLRequest * _Nonnull request, NSHTTPURLResponse * _Nullable response, NSError * _Nonnull error) {
-                                 
-                             }];
+    NSString *imageViewIdentifier = [NSString stringWithFormat:@"%p", cell.previewImage];
     
+    [[ABImageLoader sharedImageLoader] loadImageWithURL:masterPiece.pictureUrl
+                                             identifier:imageViewIdentifier
+                                              onSuccess:^(UIImage *image) {
+                                                  dispatch_async(dispatch_get_main_queue(), ^{
+                                                     weakCell.previewImage.image = image;
+                                                  });
+                                              } onFailure:^(NSError *error) {
+                                                  
+                                              }];
 }
 
 #pragma mark - UITableViewDelegate

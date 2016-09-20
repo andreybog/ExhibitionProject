@@ -12,6 +12,7 @@
 #import "Gallery.h"
 #import "NSDate+NSString.h"
 #import "UIImageView+AFNetworking.h"
+#import "ABImageLoader.h"
 
 static CGFloat const kGalleryInfoViewHeight = 250.0;
 
@@ -89,19 +90,18 @@ static CGFloat const kGalleryInfoViewHeight = 250.0;
     self.galleryPhoneLabel.text = gallery.phone;
     
     if (gallery.logoUrl) {
-        
-        NSURLRequest *request = [NSURLRequest requestWithURL:gallery.logoUrl];
-        
         __weak typeof(self) weakSelf = self;
+        NSString *imageViewIdentifier = [NSString stringWithFormat:@"%p", weakSelf.galleryLogoImageView];
         
-        [self.galleryLogoImageView setImageWithURLRequest:request
-                                         placeholderImage:nil
-                                                  success:^(NSURLRequest * _Nonnull request, NSHTTPURLResponse * _Nullable response, UIImage * _Nonnull image) {
-                                                      weakSelf.galleryLogoImageView.image = image;
-                                                  } failure:^(NSURLRequest * _Nonnull request, NSHTTPURLResponse * _Nullable response, NSError * _Nonnull error) {
+        [[ABImageLoader sharedImageLoader] loadImageWithURL:gallery.logoUrl
+                                                 identifier:imageViewIdentifier
+                                                  onSuccess:^(UIImage *image) {
+                                                      dispatch_async(dispatch_get_main_queue(), ^{
+                                                          weakSelf.galleryLogoImageView.image = image;
+                                                      });
+                                                  } onFailure:^(NSError *error) {
                                                       
                                                   }];
-        
     } else {
         self.galleryLogoImageView.image = nil;
     }
@@ -162,16 +162,16 @@ static CGFloat const kGalleryInfoViewHeight = 250.0;
     
     cell.imageView.image = nil;
     
-    NSURLRequest *request = [NSURLRequest requestWithURL:masterPiece.pictureUrl];
-    
-    [cell.imageView setImageWithURLRequest:request
-      placeholderImage:nil
-               success:^(NSURLRequest * _Nonnull request, NSHTTPURLResponse * _Nullable response, UIImage * _Nonnull image) {
-                   weakCell.imageView.image = image;
-                   [weakCell layoutSubviews];
-               } failure:^(NSURLRequest * _Nonnull request, NSHTTPURLResponse * _Nullable response, NSError * _Nonnull error) {
-                   
-               }];
+    NSString *imageViewIdentifier = [NSString stringWithFormat:@"%p", cell.imageView];
+    [[ABImageLoader sharedImageLoader] loadImageWithURL:masterPiece.pictureUrl
+                                             identifier:imageViewIdentifier
+                                              onSuccess:^(UIImage *image) {
+                                                  dispatch_async(dispatch_get_main_queue(), ^{
+                                                      weakCell.imageView.image = image;
+                                                  });
+                                              } onFailure:^(NSError *error) {
+                                                  
+                                              }];
     
     return cell;
 }
